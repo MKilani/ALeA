@@ -242,20 +242,3 @@ The format of both outputs is the following:
    etc.
 }
 ```
-
-## Running the test
-
-The file ALeA_tester.py provides an example of the use of the ALeA algorithm to tag a selection of Ancient Egyptian words.  
-It can be downloaded from the GitHub repository [ALeA_tester.py](/tester/ALeA_tester.py)
-
-The file ALeA_tester.py can be run from command line with:
-
-```shell
-python3 ALeA_tester.py
-```
-
-The results should look like this [Results_ALeA](/tester/testerResults.txt) and this [Results_ALeA_best](/tester/testerResults.txt)
-
-
-The results show that the algorithm was able to identify etymologically correct matches for all words. The results, however, include also various clearly spurious matches.  
-This is not a problem: as said above, ALeA should be used within a semi-automated approach, where the results of the automatic matching process are manually verified to select the best matches and to eliminate possible spurious matches.
