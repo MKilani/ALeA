@@ -1,0 +1,14 @@
+README.md
+setup.py
+ALeA/__init__.py
+ALeA/progbar.py
+ALeA.egg-info/PKG-INFO
+ALeA.egg-info/SOURCES.txt
+ALeA.egg-info/dependency_links.txt
+ALeA.egg-info/requires.txt
+ALeA.egg-info/top_level.txt
+ALeA/dependencies/__init__.py
+ALeA/dependencies/FAAL_jar/__init__.py
+ALeA/dependencies/FAAL_jar/config/__init__.py
+ALeA/dependencies/FAAL_jar/config/saliences/__init__.py
+ALeA/dependencies/interfaceFAAL/__init__.py

@@ -4,89 +4,69 @@ from gensim.models import KeyedVectors
 from gensim.similarities import WmdSimilarity
 import json
 import os
-import subprocess
+from subprocess import *
+import copy
+from py4j.java_gateway import JavaGateway, GatewayParameters
 
 from .progbar import progbar
 
 def initializeFAAL():
 
-    
-
+    jarFAAL = os.path.join(os.path.dirname(__file__), 'dependencies', 'FAAL_jar', 'FAAL_jar_Global_ALeA.jar')
     jarFolder = os.path.join(os.path.dirname(__file__), 'dependencies', 'FAAL_jar')
 
-    process = subprocess.Popen('java -jar FAAL_jar_Global_ALeA.jar',
-                               cwd=jarFolder,
-                               stdout=subprocess.PIPE, shell=True)
+    #process = call(['java', '-jar', jarFAAL], stdout=PIPE, #stderr=PIPE,
+    #                           cwd=jarFolder)
+    process = Popen(['java', '-jar', jarFAAL], #stdout=PIPE, #stderr=PIPE,
+                               cwd=jarFolder)
 
-    while True:
-        output = process.stdout.readline()
-        if not output == '':
-            print("FAAL jar is running...")
-            break
+    #process = os.system("java -jar " + jarFAAL)
+
+    #while True:
+    #    output = process.stdout.readline()
+    #    if not output == '':
+    #        print("FAAL jar is running...")
+    #        break
     return process
 
 def terminateFAAL(process):
     process.terminate()
 
 
-def ALeA(json_semanticSelection_One, json_semanticSelection_Two, pathModel, scoreAlignPhon = "09_Aver_Score_Sem-Phon_Corr", verbose = False, semanticLevel = "Level_01", dividers = [","], phoneticThreshold = 0.65):
+def ALeA(json_semanticSelection_One, json_semanticSelection_Two, pathModel, pathOutput, scoreAlignPhon = "09_Aver_Score_Sem-Phon_Corr", verbose = False, semanticLevel = "Level_01", dividers = [","], selectBest = "07_Sim_Score_Phon_Corr_Match", selectBestThreshold = 0.65, parseVow = True):
     """
-    :param json_semanticSelection: output of the semanticComparison method.
-                -- format: json string
+    :param json_semanticSelection_One: first semantically tagged lexical list
+                -- format: json string - output of the ASeT algorithm
+    :param json_semanticSelection_Two: second semantically tagged lexical list
+                -- format: json string - output of the ASeT algorithm
+    :param pathModel: path to saved semantic model (string)
+    :param pathOutput: path to save the results (string - no extention; e.g. /my/folder/name_file_with_my_results)
     :param scoreAlignPhon: select type of score according to which the phonetic alignments are organized (string)
-            -- default: "bestAlignCorrected"
-            -- options: "bestAlignCorrected" or "bestAlignGlobal"
-            -- "bestAlignCorrected" uses the function "(((SumFeat) / (NrFeat * 7.71)) - ((LenSeq - ShortestWord)/1.04 + ((LenAlign - LenSeq)/LenSeq)) * (1-(ShortestWord/LongestWord))) / (LenAlign * 4.77117)"
+            -- default: "09_Aver_Score_Sem-Phon_Corr"
+            -- options: "07_Sim_Score_Phon_Corr_Match", "08_Sim_Score_Phon_Glob_Match", "09_Aver_Score_Sem-Phon_Corr", or "10_Aver_Score_Sem-Phon_Glob"
+            -- "07_Sim_Score_Phon_Corr_Match" uses the function "(((SumFeat) / (NrFeat * 7.71)) / (LenAlign * 4.77117)"
+            -- "09_Aver_Score_Sem-Phon_Corr" is the average between the semantic score and the "07_Sim_Score_Phon_Corr_Match"
+            -- "10_Aver_Score_Sem-Phon_Glob" is the average between the semantic score and the "08_Sim_Score_Phon_Glob_Match"
             -- see FAAL documentation for details ( https://github.com/MKilani/FAAL )
     :param verbose: print data during execution (boolean)
-            -- default: False
-    :return: results (json string)
-            -- format:
-                {
-                   "0": {                                           # ID entry - index for the following data
-                      "0_ID_token": int,                            # ID item lexical list A
-                      "1_Meaning_token": string,                    # Meaning(s) item lexical list A
-                      "2_Form_token": [                             # Form(s) item lexical list A - spelled in IPA
-                         string,
-                         string
-                      ],
-                      "3_Matches": {                                # Organized matches from lexical list B - index for the matches
-                         "0": {                                     # ID match
-                            "0_ID_Match": int,                      # ID item from lexical list B
-                            "1_Meaning_Match": string,              # Meaning(s) item lexical list B
-                            "2_Form_Match": [                       # Form(s) item lexical list B - spelled in IPA
-                               string,
-                               string
-                            ],
-                            "3_Sim_Score_Sem_Match": float,         # Semantic similarity item list A - item list B
-                            "4_Best_Match_Sem": [                   # Meanings of items list A and B with highest semantic similarity
-                               string,
-                               string
-                            ],
-                            "5_Best_Match_Phon": [                  # Forms of items list A and B with highest phonetic similarity
-                               int,
-                               string,
-                               int,
-                               string
-                            ],
-                            "6_Sim_Score_Phon_Corr_Match": float,   # Phonetic alignemnt - Corrected similarity score (see FAAL documentation)
-                            "7_Sim_Score_Phon_Glob_Match": float,   # Phonetic alignemnt - Global similarity score (see FAAL documentation)
-                            "8_Aver_Score_Sem-Phon_Corr": float,    # Phonetic-Semantic alignemnt - Average Corrected similarity score - Semantic score
-                            "9_ResultsComp": {
-                               "bestAlignCorrected": float,         # Phonetic alignemnt - Corrected similarity score (see FAAL documentation)
-                               "bestAlignGlobal": float,            # Phonetic alignemnt - Global similarity score (see FAAL documentation)
-                               "wordWithDiacritics_1": string,      # Alignment with diacritic - word A (see FAAL documentation)
-                               "wordWithDiacritics_2": string,      # Alignment with diacritic - word B (see FAAL documentation)
-                               "wordWithoutDiacritics_1": string,   # Alignment without diacritic - word A (see FAAL documentation)
-                               "wordWithoutDiacritics_2": string    # Alignment without diacritic - word B (see FAAL documentation)
-                            }
-                         },
-                         etc.
-                      }
-                   },
-                   etc.
-                 }
+            -- default: True
+    :param semanticLevel: level of the semantic tags according to which the comaprison is performed. The options, for now, are: "Level_01", "Level_02", "Level_03" (see ASeT algorithm for details)
+    :param dividers: dividers used to split meanings (array of strings [string, string]
+            -- default: [","]
+    :param selectBest: parameter according to which the algorithm selects the best matches among those identified by the ALeA on the basis of the other parameters
+            -- default: "07_Sim_Score_Phon_Corr_Match"
+            -- options: "07_Sim_Score_Phon_Corr_Match", "08_Sim_Score_Phon_Glob_Match", "09_Aver_Score_Sem-Phon_Corr", or "10_Aver_Score_Sem-Phon_Glob"
+            -- "07_Sim_Score_Phon_Corr_Match" uses the function "(((SumFeat) / (NrFeat * 7.71)) / (LenAlign * 4.77117)"
+            -- "09_Aver_Score_Sem-Phon_Corr" is the average between the semantic score and the "07_Sim_Score_Phon_Corr_Match"
+            -- "10_Aver_Score_Sem-Phon_Glob" is the average between the semantic score and the "08_Sim_Score_Phon_Glob_Match"
+            -- see FAAL documentation for details ( https://github.com/MKilani/FAAL )
+    :param selectBestThreshold: threshold for the parameter selectBest
+            -- default: 0.65
+    :param parseVow: this allows to decide if the phonetic comparison should take into consideration vowels or not. Ignoring vowels can be useful when dealing with unrelated or relatively distant languages, or with languages in which vowels are rather unstable and semantically secondary (e.g. Semitic languages)
+            -- default: True
     """
+    gateway = JavaGateway()
+    addition_app = gateway.entry_point
 
     semanticSelectionDict_One = json.loads(json_semanticSelection_One)
     semanticSelectionDict_Two = json.loads(json_semanticSelection_Two)
@@ -151,25 +131,26 @@ def ALeA(json_semanticSelection_One, json_semanticSelection_Two, pathModel, scor
                     semanticToMatch = entry["03_Matches"][semanticLevel][match_ID]["11_Semantic_Field"]
 
                     #new_match_count = 0
-                    for matchTwo in SemanticIndex_ListTwo[semanticToMatch]:
+                    if semanticToMatch in SemanticIndex_ListTwo:
+                        for matchTwo in SemanticIndex_ListTwo[semanticToMatch]:
 
-                        progbar(indexBar, len(semanticSelectionDict_One) - 1, 20)
+                            progbar(indexBar, len(semanticSelectionDict_One) - 1, 20)
 
-                        new_match = {}
+                            new_match = {}
 
-                        if matchTwo["ID_Cluster"] <= new_ID_cluster:
-                            entry_Two = semanticSelectionDict_Two[matchTwo["Key"]]
+                            if matchTwo["ID_Cluster"] <= new_ID_cluster:
+                                entry_Two = semanticSelectionDict_Two[matchTwo["Key"]]
 
-                            new_match["00_ID_Match"] = entry_Two["00_ID_token"]
-                            new_match["01_Meaning_Match"] = entry_Two["01_Meaning_token"]
-                            new_match["02_Form_Match"] = entry_Two["02_Form_token"]
-                            new_match["03_Best_Match_Sem"] = [semanticToMatch, semanticToMatch]
-                            new_match["05_ID_Cluster"] = new_ID_cluster
-                            new_match["06_Sim_Score_Sem_Match"] = 1.0
-                            new_match["11_Semantic_Field"] = semanticToMatch
+                                new_match["00_ID_Match"] = entry_Two["00_ID_token"]
+                                new_match["01_Meaning_Match"] = entry_Two["01_Meaning_token"]
+                                new_match["02_Form_Match"] = entry_Two["02_Form_token"]
+                                new_match["03_Best_Match_Sem"] = [semanticToMatch, semanticToMatch]
+                                new_match["05_ID_Cluster"] = new_ID_cluster
+                                new_match["06_Sim_Score_Sem_Match"] = 1.0
+                                new_match["11_Semantic_Field"] = semanticToMatch
 
-                            new_matches[new_match_count] = new_match.copy()
-                            new_match_count = new_match_count + 1
+                                new_matches[new_match_count] = new_match.copy()
+                                new_match_count = new_match_count + 1
 
             new_entry["03_Matches"] = {}
             new_entry["03_Matches"][semanticLevel] = new_matches
@@ -222,7 +203,7 @@ def ALeA(json_semanticSelection_One, json_semanticSelection_Two, pathModel, scor
             numberMatchesOutput = len(listMeanings)
 
             print("-> Compile semantic index")
-            print (str(counter) + " of " + str(len(semanticSelectionDict)))
+            print (str(counter+1) + " of " + str(len(semanticSelectionDict)))
             counter = counter + 1
             index = WmdSimilarity(listMeanings, model, numberMatchesOutput)
             print("-> Semantic index compiled")
@@ -288,7 +269,15 @@ def ALeA(json_semanticSelection_One, json_semanticSelection_Two, pathModel, scor
             word_A_list = semanticSelectionDict[key_A][sem_Cluster]['02_Form_token']
 
             #print (word_A)
+            previous_Key = ""
             for key_B in semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel]:
+
+                if key_B == previous_Key:
+                    continue
+                previous_Key = key_B
+
+
+
                 ID_word_B = semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][key_B]["00_ID_Match"]
                 meaning_word_B = semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][key_B]["01_Meaning_Match"]
                 word_B_list = semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][key_B]["02_Form_Match"]
@@ -303,8 +292,18 @@ def ALeA(json_semanticSelection_One, json_semanticSelection_Two, pathModel, scor
                     index_WordB = -1
                     for word_B in word_B_list:
                         index_WordB = index_WordB + 1
-                        resultsComparisonTemp = interfaceFAAL(word_A, word_B)
 
+                        if parseVow == False:
+                            noVowWord_A = removeVow(word_A)
+                            noVowWord_B = removeVow(word_B)
+
+                            resultsComparisonTemp = interfaceFAAL(noVowWord_A, noVowWord_B, addition_app)
+
+                        else:
+                            resultsComparisonTemp = interfaceFAAL(word_A, word_B)
+
+                        #indexBar = indexBar + 1
+                        #progbar(indexBar, (len(semanticSelectionDict)*len(semanticSelectionDict[key_A])* len(semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel])*len(word_A_list)* len(word_B_list)) - 1, 20)
 
 
                             #print (resultsComparisonTemp)
@@ -330,12 +329,12 @@ def ALeA(json_semanticSelection_One, json_semanticSelection_Two, pathModel, scor
                 #phoneticSelectionFile.close()
 
 
-                semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][key_B]['10_ResultsComp'] = resultsComparison
+                semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][key_B]['12_ResultsComp'] = resultsComparison
                 semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][key_B]['04_Best_Match_Phon'] = IDBestMatch
-                semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][key_B]['07_Sim_Score_Phon_Corr_Match'] = semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][key_B]["10_ResultsComp"]["bestAlignCorrected"]
-                semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][key_B]['08_Sim_Score_Phon_Glob_Match'] = semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][key_B]["10_ResultsComp"]["bestAlignGlobal"]
+                semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][key_B]['07_Sim_Score_Phon_Corr_Match'] = semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][key_B]["12_ResultsComp"]["bestAlignCorrected"]
+                semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][key_B]['08_Sim_Score_Phon_Glob_Match'] = semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][key_B]["12_ResultsComp"]["bestAlignGlobal"]
                 semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][key_B]['09_Aver_Score_Sem-Phon_Corr'] = (semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][key_B]["07_Sim_Score_Phon_Corr_Match"] + semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][key_B]["06_Sim_Score_Sem_Match"])/2
-
+                semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][key_B]['10_Aver_Score_Sem-Phon_Glob'] = (semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][key_B]["08_Sim_Score_Phon_Glob_Match"] + semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][key_B]["06_Sim_Score_Sem_Match"]) / 2
 
     print ()
     # set up progress bar
@@ -389,13 +388,33 @@ def ALeA(json_semanticSelection_One, json_semanticSelection_Two, pathModel, scor
                                             [scoreAlignPhon] < temporaryEntries[z-1][scoreAlignPhon] and \
                                             semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][n] \
                                             [scoreAlignPhon] >= temporaryEntries[z][scoreAlignPhon]:
+                                #if not semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][n]\
+                                #            [scoreAlignPhon] < temporaryEntries[z-1][scoreAlignPhon] and \
+                                #            semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][n] \
+                                #            ["00_ID_Match"] == temporaryEntries[z]["00_ID_Match"]:
                                 temporaryEntries.insert(z,semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][n])
                                 break
 
             semanticSelectionDict_ordered[key_A][sem_Cluster]["03_Matches"] = {}
             semanticSelectionDict_ordered[key_A][sem_Cluster]["03_Matches"][semanticLevel] = {}
-            for ID in range (0, len(temporaryEntries)):
-                semanticSelectionDict_ordered[key_A][sem_Cluster]["03_Matches"][semanticLevel][ID] = temporaryEntries[ID]
+
+            temporaryEntriesCleaned = []
+            #remove doubles from temporary entry
+            doubleEntry = False
+            for temporaryEntry in temporaryEntries:
+                for temporaryEntryCleaned in temporaryEntriesCleaned:
+                    if temporaryEntry["00_ID_Match"] == temporaryEntryCleaned["00_ID_Match"]:
+                        doubleEntry = True
+
+                if doubleEntry == False:
+                    temporaryEntriesCleaned.append(copy.deepcopy(temporaryEntry))
+                doubleEntry = False
+
+
+
+
+            for ID in range (0, len(temporaryEntriesCleaned)):
+                semanticSelectionDict_ordered[key_A][sem_Cluster]["03_Matches"][semanticLevel][ID] = temporaryEntriesCleaned[ID]
 
 
     json_semanticSelectionDict = json.dumps(semanticSelectionDict_ordered, sort_keys=True, indent=3, ensure_ascii=False)
@@ -413,33 +432,38 @@ def ALeA(json_semanticSelection_One, json_semanticSelection_Two, pathModel, scor
     indexBar = -1
     print("Select top matches - Progress:")
 
-    semanticSelectionDict = json.loads(alignedLists)
+    semanticSelectionDict = json.loads(json_semanticSelectionDict)
+
+    semanticSelectionDict_ordered_best = {}
+
+    resultsSimplified = []
+    resultsSimplifiedString = ""
 
     for key_A in semanticSelectionDict:
 
         indexBar = indexBar + 1
         progbar(indexBar, len(semanticSelectionDict) - 1, 20)
 
-        if key_A not in semanticSelectionDict_ordered:
-            semanticSelectionDict_ordered[key_A] = {}
+        if key_A not in semanticSelectionDict_ordered_best:
+            semanticSelectionDict_ordered_best[key_A] = {}
 
         temporaryEntries = []
 
         counter = 0
 
         for sem_Cluster in semanticSelectionDict[key_A]:
-            if sem_Cluster not in semanticSelectionDict_ordered[key_A]:
-                semanticSelectionDict_ordered[key_A][sem_Cluster] = {}
-            semanticSelectionDict_ordered[key_A][sem_Cluster]["00_ID_token"] = \
+            if sem_Cluster not in semanticSelectionDict_ordered_best[key_A]:
+                semanticSelectionDict_ordered_best[key_A][sem_Cluster] = {}
+            semanticSelectionDict_ordered_best[key_A][sem_Cluster]["00_ID_token"] = \
             semanticSelectionDict[key_A][sem_Cluster]["00_ID_token"]
-            semanticSelectionDict_ordered[key_A][sem_Cluster]["01_Meaning_token"] = \
+            semanticSelectionDict_ordered_best[key_A][sem_Cluster]["01_Meaning_token"] = \
             semanticSelectionDict[key_A][sem_Cluster]["01_Meaning_token"]
-            semanticSelectionDict_ordered[key_A][sem_Cluster]["02_Form_token"] = \
+            semanticSelectionDict_ordered_best[key_A][sem_Cluster]["02_Form_token"] = \
             semanticSelectionDict[key_A][sem_Cluster]["02_Form_token"]
 
             if semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel] == {}:
-                semanticSelectionDict_ordered[key_A][sem_Cluster]["03_Matches"] = {}
-                semanticSelectionDict_ordered[key_A][sem_Cluster]["03_Matches"][semanticLevel] = \
+                semanticSelectionDict_ordered_best[key_A][sem_Cluster]["03_Matches"] = {}
+                semanticSelectionDict_ordered_best[key_A][sem_Cluster]["03_Matches"][semanticLevel] = \
                 semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel]
                 continue
 
@@ -452,24 +476,179 @@ def ALeA(json_semanticSelection_One, json_semanticSelection_Two, pathModel, scor
                 else:
 
                     if semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][str(n)][
-                        scoreAlignPhon] > phoneticThreshold:
+                        selectBest] > selectBestThreshold:
                         temporaryEntries.append(
                             semanticSelectionDict[key_A][sem_Cluster]["03_Matches"][semanticLevel][str(n)])
 
-        semanticSelectionDict_ordered[key_A][sem_Cluster]["03_Matches"] = {}
-        semanticSelectionDict_ordered[key_A][sem_Cluster]["03_Matches"][semanticLevel] = {}
+        semanticSelectionDict_ordered_best[key_A][sem_Cluster]["03_Matches"] = {}
+        semanticSelectionDict_ordered_best[key_A][sem_Cluster]["03_Matches"][semanticLevel] = {}
         for ID in range(0, len(temporaryEntries)):
-            semanticSelectionDict_ordered[key_A][sem_Cluster]["03_Matches"][semanticLevel][str(ID)] = temporaryEntries[
-                ID]
+            semanticSelectionDict_ordered_best[key_A][sem_Cluster]["03_Matches"][semanticLevel][str(ID)] = copy.deepcopy(temporaryEntries[ID])
 
 
-    json_semanticSelectionDict_best = json.dumps(semanticSelectionDict_ordered, sort_keys=True, indent=3,\
-                                                 ensure_ascii=False)
+            resultsSimplifiedString = resultsSimplifiedString + "Cluster: " + str(sem_Cluster) + " :: " + str(semanticSelectionDict_ordered_best[key_A][sem_Cluster]["00_ID_token"]) + " - '" + ", ".join(semanticSelectionDict[key_A][sem_Cluster]["02_Form_token"]) + "' - " + \
+                  semanticSelectionDict[key_A][sem_Cluster]["01_Meaning_token"] + " :: " + str(semanticSelectionDict_ordered_best[key_A][sem_Cluster]["03_Matches"][semanticLevel][str(ID)]["00_ID_Match"]) + " - '" + ", ".join(semanticSelectionDict_ordered_best[key_A][sem_Cluster]["03_Matches"][semanticLevel][str(ID)]["02_Form_Match"]) + "' - " + \
+                  semanticSelectionDict_ordered_best[key_A][sem_Cluster]["03_Matches"][semanticLevel][str(ID)]["01_Meaning_Match"] + " :: " + str(semanticSelectionDict_ordered_best[key_A][sem_Cluster]["03_Matches"][semanticLevel][str(ID)][selectBest]) + "\n"
+        resultsSimplifiedString = resultsSimplifiedString + "---------\n"
+
+
+    if verbose == True:
+        print()
+        print()
+        print(resultsSimplifiedString)
+
+    json_semanticSelectionDict_best = json.dumps(semanticSelectionDict_ordered_best, sort_keys=True, indent=3, ensure_ascii=False)
+
+    Results = open(
+        pathOutput + ".json",
+        "w")  # 
+
+    Results.write(json_semanticSelectionDict)
+    Results.close()
+
+    ResultsBest = open(
+        pathOutput + "_best_" + str(selectBestThreshold) + ".json",
+        "w")  # 
+
+
+    ResultsBest.write(json_semanticSelectionDict_best)
+    ResultsBest.close()
+
+    ResultsBestSimplified = open(
+        pathOutput + "_bestSimplified_" + str(selectBestThreshold) + ".txt",
+        "w")  #
+
+    ResultsBestSimplified.write(resultsSimplifiedString)
+    ResultsBestSimplified.close()
+
+    return json_semanticSelectionDict, json_semanticSelectionDict_best, resultsSimplifiedString
 
 
 
+def removeVow(wordToParse):
 
+    wordToParse = "$" + wordToParse + "$"
 
+    wordToParse = wordToParse.replace("̯", "")
 
+    wordToParse = wordToParse.replace("͜", "")
 
-    return json_semanticSelectionDict, json_semanticSelectionDict_best
+    wordToParse = wordToParse.replace("i:", "i")
+    wordToParse = wordToParse.replace("y:", "y")
+    wordToParse = wordToParse.replace("ɨ:", "ɨ")
+    wordToParse = wordToParse.replace("ʉ:", "ʉ")
+    wordToParse = wordToParse.replace("ɯ:", "ɯ")
+    wordToParse = wordToParse.replace("u:", "u")
+    wordToParse = wordToParse.replace("ɪ:", "ɪ")
+    wordToParse = wordToParse.replace("ʏ:", "ʏ")
+    wordToParse = wordToParse.replace("ʊ:", "ʊ")
+    wordToParse = wordToParse.replace("e:", "e")
+    wordToParse = wordToParse.replace("ø:", "ø")
+    wordToParse = wordToParse.replace("ɘ:", "ɘ")
+    wordToParse = wordToParse.replace("ɵ:", "ɵ")
+    wordToParse = wordToParse.replace("ɤ:", "ɤ")
+    wordToParse = wordToParse.replace("o:", "o")
+    wordToParse = wordToParse.replace("ɛ:", "ɛ")
+    wordToParse = wordToParse.replace("œ:", "œ")
+    wordToParse = wordToParse.replace("ə:", "ə")
+    wordToParse = wordToParse.replace("ɞ:", "ɞ")
+    wordToParse = wordToParse.replace("ʌ:", "ʌ")
+    wordToParse = wordToParse.replace("ɔ:", "ɔ")
+    wordToParse = wordToParse.replace("æ:", "æ")
+    wordToParse = wordToParse.replace("ɶ:", "ɶ")
+    wordToParse = wordToParse.replace("a:", "a")
+    wordToParse = wordToParse.replace("ɑ:", "ɑ")
+    wordToParse = wordToParse.replace("ɒ:", "ɒ")
+    wordToParse = wordToParse.replace("ɐ:", "ɐ")
+    wordToParse = wordToParse.replace("ɜ:", "ɜ")
+
+    wordToParse = wordToParse.replace("$i", "ʔ")
+    wordToParse = wordToParse.replace("$y", "ʔ")
+    wordToParse = wordToParse.replace("$ɨ", "ʔ")
+    wordToParse = wordToParse.replace("$ʉ", "ʔ")
+    wordToParse = wordToParse.replace("$ɯ", "ʔ")
+    wordToParse = wordToParse.replace("$u", "ʔ")
+    wordToParse = wordToParse.replace("$ɪ", "ʔ")
+    wordToParse = wordToParse.replace("$ʏ", "ʔ")
+    wordToParse = wordToParse.replace("$ʊ", "ʔ")
+    wordToParse = wordToParse.replace("$e", "ʔ")
+    wordToParse = wordToParse.replace("$ø", "ʔ")
+    wordToParse = wordToParse.replace("$ɘ", "ʔ")
+    wordToParse = wordToParse.replace("$ɵ", "ʔ")
+    wordToParse = wordToParse.replace("$ɤ", "ʔ")
+    wordToParse = wordToParse.replace("$o", "ʔ")
+    wordToParse = wordToParse.replace("$ɛ", "ʔ")
+    wordToParse = wordToParse.replace("$œ", "ʔ")
+    wordToParse = wordToParse.replace("$ə", "ʔ")
+    wordToParse = wordToParse.replace("$ɞ", "ʔ")
+    wordToParse = wordToParse.replace("$ʌ", "ʔ")
+    wordToParse = wordToParse.replace("$ɔ", "ʔ")
+    wordToParse = wordToParse.replace("$æ", "ʔ")
+    wordToParse = wordToParse.replace("$ɶ", "ʔ")
+    wordToParse = wordToParse.replace("$a", "ʔ")
+    wordToParse = wordToParse.replace("$ɑ", "ʔ")
+    wordToParse = wordToParse.replace("$ɒ", "ʔ")
+    wordToParse = wordToParse.replace("$ɐ", "ʔ")
+    wordToParse = wordToParse.replace("$ɜ", "ʔ")
+
+    wordToParse = wordToParse.replace("i$", "ʔ")
+    wordToParse = wordToParse.replace("y$", "ʔ")
+    wordToParse = wordToParse.replace("ɨ$", "ʔ")
+    wordToParse = wordToParse.replace("ʉ$", "ʔ")
+    wordToParse = wordToParse.replace("ɯ$", "ʔ")
+    wordToParse = wordToParse.replace("u$", "ʔ")
+    wordToParse = wordToParse.replace("ɪ$", "ʔ")
+    wordToParse = wordToParse.replace("ʏ$", "ʔ")
+    wordToParse = wordToParse.replace("ʊ$", "ʔ")
+    wordToParse = wordToParse.replace("e$", "ʔ")
+    wordToParse = wordToParse.replace("ø$", "ʔ")
+    wordToParse = wordToParse.replace("ɘ$", "ʔ")
+    wordToParse = wordToParse.replace("ɵ$", "ʔ")
+    wordToParse = wordToParse.replace("ɤ$", "ʔ")
+    wordToParse = wordToParse.replace("o$", "ʔ")
+    wordToParse = wordToParse.replace("ɛ$", "ʔ")
+    wordToParse = wordToParse.replace("œ$", "ʔ")
+    wordToParse = wordToParse.replace("ə$", "ʔ")
+    wordToParse = wordToParse.replace("ɞ$", "ʔ")
+    wordToParse = wordToParse.replace("ʌ$", "ʔ")
+    wordToParse = wordToParse.replace("ɔ$", "ʔ")
+    wordToParse = wordToParse.replace("æ$", "ʔ")
+    wordToParse = wordToParse.replace("ɶ$", "ʔ")
+    wordToParse = wordToParse.replace("a$", "ʔ")
+    wordToParse = wordToParse.replace("ɑ$", "ʔ")
+    wordToParse = wordToParse.replace("ɒ$", "ʔ")
+    wordToParse = wordToParse.replace("ɐ$", "ʔ")
+    wordToParse = wordToParse.replace("ɜ$", "ʔ")
+
+    wordToParse = wordToParse.replace("$", "")
+
+    wordToParse = wordToParse.replace("i", "")
+    wordToParse = wordToParse.replace("y", "")
+    wordToParse = wordToParse.replace("ɨ", "")
+    wordToParse = wordToParse.replace("ʉ", "")
+    wordToParse = wordToParse.replace("ɯ", "")
+    wordToParse = wordToParse.replace("u", "")
+    wordToParse = wordToParse.replace("ɪ", "")
+    wordToParse = wordToParse.replace("ʏ", "")
+    wordToParse = wordToParse.replace("ʊ", "")
+    wordToParse = wordToParse.replace("e", "")
+    wordToParse = wordToParse.replace("ø", "")
+    wordToParse = wordToParse.replace("ɘ", "")
+    wordToParse = wordToParse.replace("ɵ", "")
+    wordToParse = wordToParse.replace("ɤ", "")
+    wordToParse = wordToParse.replace("o", "")
+    wordToParse = wordToParse.replace("ɛ", "")
+    wordToParse = wordToParse.replace("œ", "")
+    wordToParse = wordToParse.replace("ə", "")
+    wordToParse = wordToParse.replace("ɞ", "")
+    wordToParse = wordToParse.replace("ʌ", "")
+    wordToParse = wordToParse.replace("ɔ", "")
+    wordToParse = wordToParse.replace("æ", "")
+    wordToParse = wordToParse.replace("ɶ", "")
+    wordToParse = wordToParse.replace("a", "")
+    wordToParse = wordToParse.replace("ɑ", "")
+    wordToParse = wordToParse.replace("ɒ", "")
+    wordToParse = wordToParse.replace("ɐ", "")
+    wordToParse = wordToParse.replace("ɜ", "")
+
+    return wordToParse

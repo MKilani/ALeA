@@ -1,0 +1,471 @@
+Cluster: 0 :: 0 - 'ʔln' - a tree :: 7671 - 'ʔi:la:n' - tree :: 0.9999999128155492
+Cluster: 0 :: 0 - 'ʔln' - a tree :: 7260 - 'ʔajil' - mighty, lintel, oak, post, ram, tree :: 0.9283170774183686
+Cluster: 0 :: 0 - 'ʔln' - a tree :: 7559 - 'ʔeʃɛl' - grove, tree :: 0.8333332752103662
+Cluster: 0 :: 0 - 'ʔln' - a tree :: 813 - 'gɛpɛn' - vine, tree :: 0.831391527976131
+Cluster: 0 :: 0 - 'ʔln' - a tree :: 8221 - 'ʕesˤ' - carpenter, gallows, helve, pine, plank, staff, stalk, stick, stock, timber, tree, wood :: 0.6368931800135775
+---------
+Cluster: 1 :: 0 - 'ʔln' - a tree :: 7671 - 'ʔi:la:n' - tree :: 0.9999999128155492
+Cluster: 1 :: 0 - 'ʔln' - a tree :: 7278 - 'ʔal:o:wn' - oak :: 0.6211582688540426
+Cluster: 1 :: 0 - 'ʔln' - a tree :: 131 - 'barqa:n' - brier :: 0.6027421881570625
+Cluster: 1 :: 0 - 'ʔln' - a tree :: 6630 - 'to:rɛn' - beacon, mast :: 0.6928189496803838
+Cluster: 1 :: 0 - 'ʔln' - a tree :: 7260 - 'ʔajil' - mighty, lintel, oak, post, ram, tree :: 0.9283170774183686
+Cluster: 1 :: 0 - 'ʔln' - a tree :: 1062 - 'ha:ra:r' - hill, mount :: 0.6611006597481212
+Cluster: 1 :: 0 - 'ʔln' - a tree :: 3023 - 'sˤi:u:wn' - sign, title, waymark :: 0.6167196204882712
+Cluster: 1 :: 0 - 'ʔln' - a tree :: 5829 - 'ʃa:men' - fat, lusty, plenteous :: 0.6033161804968439
+Cluster: 1 :: 0 - 'ʔln' - a tree :: 7559 - 'ʔeʃɛl' - grove, tree :: 0.8333332752103662
+Cluster: 1 :: 0 - 'ʔln' - a tree :: 813 - 'gɛpɛn' - vine, tree :: 0.831391527976131
+Cluster: 1 :: 0 - 'ʔln' - a tree :: 8221 - 'ʕesˤ' - carpenter, gallows, helve, pine, plank, staff, stalk, stick, stock, timber, tree, wood :: 0.6368931800135775
+---------
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 7671 - 'ʔi:la:n' - tree :: 0.9999999128155492
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 7278 - 'ʔal:o:wn' - oak :: 0.6211582688540426
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 7730 - 'ʔo:rɛn' - ash :: 0.7145702979611113
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 5076 - 'qɛrɛn' - hill, horn :: 0.7169258927323815
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 131 - 'barqa:n' - brier :: 0.6027421881570625
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 6630 - 'to:rɛn' - beacon, mast :: 0.6928189496803838
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 2253 - 'ka:nan' - vineyard :: 0.6888268115580057
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 4803 - 'pi:no:n' - Pinon :: 0.6716351185317411
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 2427 - 'kɛrɛm' - vines, vineyard, vintage :: 0.6998136188153783
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 7260 - 'ʔajil' - mighty, lintel, oak, post, ram, tree :: 0.9283170774183686
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 2448 - 'ki:u:wn' - Chiun :: 0.659537708510787
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 6578 - 'tɛlɛm' - furrow, ridge :: 0.6708456457321504
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 992 - 'ħa:li:l' - pipe :: 0.6594144128246953
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 982 - 'ħa:lal' - begin, defile, break, defile, eat, first, gather grape thereof, take inheritance, pipe, player on instruments, pollute, profane, prostitute, slay, sorrow, stain, wound :: 0.6594144128246953
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 1062 - 'ha:ra:r' - hill, mount :: 0.6611006597481212
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 1074 - 'ħa:rar' - be angry, burn, dry, kindle :: 0.6436658016284917
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 7029 - 'ʔa:mi:r' - bough, branch :: 0.6430379383122822
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 1394 - 'ħejl' - army, bulwark, host, poor, rampart, trench, wall :: 0.6252319787157242
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 4913 - 'qa:mal' - hew down, wither :: 0.6150137240543396
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 3023 - 'sˤi:u:wn' - sign, title, waymark :: 0.6167196204882712
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 6766 - 'tˤu:wr' - mountain :: 0.6105879962110972
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 1621 - 'ħo:wl' - sand :: 0.605620819112354
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 1659 - 'ħu:wl' - Hul :: 0.6011274947564266
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 6175 - 'ʃɛmɛn' - anointing, fat, fruitful, oil, ointment, olive, pine :: 0.6196149062567924
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 5829 - 'ʃa:men' - fat, lusty, plenteous :: 0.6033161804968439
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 6387 - 'ta:ma:r' - palm :: 0.6015918536185987
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 7559 - 'ʔeʃɛl' - grove, tree :: 0.8333332752103662
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 813 - 'gɛpɛn' - vine, tree :: 0.831391527976131
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 8221 - 'ʕesˤ' - carpenter, gallows, helve, pine, plank, staff, stalk, stick, stock, timber, tree, wood :: 0.6368931800135775
+---------
+Cluster: 0 :: 1 - 'ʔspt' - quiver :: 7442 - 'ʔaʃpa:h' - quiver :: 0.9499999215339943
+Cluster: 0 :: 1 - 'ʔspt' - quiver :: 6530 - 'təli:' - quiver :: 0.7275485040119307
+Cluster: 0 :: 1 - 'ʔspt' - quiver :: 2849 - 'sˤa:lal' - quiver, tingle :: 0.6262135702252842
+---------
+Cluster: 1 :: 1 - 'ʔspt' - quiver :: 7442 - 'ʔaʃpa:h' - quiver :: 0.9499999215339943
+Cluster: 1 :: 1 - 'ʔspt' - quiver :: 5150 - 'qodqo:d' - crown, pate, scalp, top head :: 0.6809962587684765
+Cluster: 1 :: 1 - 'ʔspt' - quiver :: 8328 - 'ʕizqa:ʔ' - signet :: 0.6705385877027525
+Cluster: 1 :: 1 - 'ʔspt' - quiver :: 2488 - 'ko:wbaʕ' - helmet :: 0.6312188930454208
+Cluster: 1 :: 1 - 'ʔspt' - quiver :: 5137 - 'qo:wbaʕ' - helmet :: 0.6309761746411415
+Cluster: 1 :: 1 - 'ʔspt' - quiver :: 1333 - 'ħăsi:da:h' - feather, stork :: 0.6358348056175134
+Cluster: 1 :: 1 - 'ʔspt' - quiver :: 6709 - 'tˤab:aʕat' - ring :: 0.6154118570376501
+Cluster: 1 :: 1 - 'ʔspt' - quiver :: 5085 - 'qɛʃɛt' - arch, arrow, bow :: 0.6025109487447908
+Cluster: 1 :: 1 - 'ʔspt' - quiver :: 6530 - 'təli:' - quiver :: 0.7275485040119307
+Cluster: 1 :: 1 - 'ʔspt' - quiver :: 2849 - 'sˤa:lal' - quiver, tingle :: 0.6262135702252842
+---------
+---------
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 8284 - 'ʕɛzra:h' - help :: 0.6129441834649414
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 8245 - 'ʕezɛr' - help :: 0.7310671402142459
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 7976 - 'ʕa:zar' - help, succour :: 0.7310671402142459
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 1802 - 'ja:sar' - bind, chasten, chastise, correct, instruct, punish, reform, reprove, sore, teach :: 0.6955337473536006
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 4955 - 'qa:tˤar' - join :: 0.6867774177065329
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 1831 - 'ja:ʔal' - assay, begin, be content, please, take upon, willingly, would :: 0.6818899408250387
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 1805 - 'ja:ʃa:r' - convenient, equity, Jasher, just, meet, pleased well right, straight, upright :: 0.6803949928673318
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 4908 - 'qa:sˤer' - few, hasty, small, soon :: 0.6556659710234229
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 81 - 'ba:tˤel' - cease :: 0.6521765332141299
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 5012 - 'qəbal' - receive, take :: 0.6510006210071055
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 4871 - 'qa:bal' - choose, hold, receive, take :: 0.6510006210071055
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 2739 - 'ɬebɛr' - hope :: 0.6456676640065816
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 7016 - 'ʔa:sˤal' - keep, reserve, straiten, take :: 0.6491385974873431
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 5856 - 'ʃa:qal' - pay, receive, spend, throughly, weigh :: 0.6462239721691072
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 4887 - 'qa:hal' - assemble, gather :: 0.6235524004652646
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 5789 - 'ʃa:kan' - abide, continue, dwell, have habitation, inhabit, lay, place, remain, rest, set :: 0.6263678008305217
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 6977 - 'ʔa:da:m' - another, hypocrite, common sort, low, man, person :: 0.6901586614465718
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 6357 - 'ʃu:wr' - go, singular :: 0.607076109060289
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 7972 - 'ʕa:wo:n' - fault, iniquity, mischeif, punishment, sin :: 0.6049659895653233
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 2480 - 'ko:hen' - chief ruler, own, priest, prince, principal officer :: 0.6120780975259738
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 2235 - 'ka:hen' - priest :: 0.6120780975259738
+---------
+Cluster: 0 :: 3 - 'rʔʃ' - peak, top, summit :: 5512 - 'ro:ʔʃ' - band, beginning, captain, chapiter, chief, company, end, every, excellent, first, forefront, head, height, high, lead, poor, principal, ruler, sum, top :: 0.9999999128155492
+Cluster: 0 :: 3 - 'rʔʃ' - peak, top, summit :: 2915 - 'sˤam:ɛrɛt' - highest branch, top :: 0.7292475328418866
+Cluster: 0 :: 3 - 'rʔʃ' - peak, top, summit :: 2949 - 'sˤəħi:aħ' - higher place, top :: 0.7713591759843612
+Cluster: 0 :: 3 - 'rʔʃ' - peak, top, summit :: 620 - 'ga:g' - roof, top :: 0.7689319919415672
+Cluster: 0 :: 3 - 'rʔʃ' - peak, top, summit :: 5594 - 'sa:ʕi:p' - branch, clift, top :: 0.7454692128612259
+Cluster: 0 :: 3 - 'rʔʃ' - peak, top, summit :: 5592 - 'sa:ʕap' - top :: 0.7454692128612259
+Cluster: 0 :: 3 - 'rʔʃ' - peak, top, summit :: 815 - 'gɛrɛm' - bone, strong, top :: 0.6702265075346142
+---------
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 5512 - 'ro:ʔʃ' - band, beginning, captain, chapiter, chief, company, end, every, excellent, first, forefront, head, height, high, lead, poor, principal, ruler, sum, top :: 0.9999999128155492
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 5365 - 'reʔʃi:t' - beginning, chief, first, principal thing :: 0.6099036484311872
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 5488 - 'riʔʃa:h' - beginning :: 0.6085200203653357
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 2539 - 'la:qaʃ' - gather :: 0.7075324052992157
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 4131 - 'na:gaʃ' - approach, bring, come, give place, go hard, near, offer, overtake, present, put, stand :: 0.6896611904060321
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 5249 - 'ra:qaʕ' - beat, make broad, spread abroad, stamp, stretch :: 0.6895089237589596
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 5464 - 'rib:eaʕ' - fourth :: 0.6982781547119419
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 1774 - 'ja:qasˤ' - awake :: 0.6586389396119943
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 4246 - 'na:ʔa:h' - habitation, house, pasture, pleasant place :: 0.6540824446452931
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 5415 - 'rəʕaʕ' - break, bruise :: 0.6576894873203036
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 5206 - 'ra:kab' - bring back, carry, get up, on back, put, ride, set :: 0.6585363007128389
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 5175 - 'ra:bi:b' - shower :: 0.647724655024589
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 2517 - 'la:batˤ' - fall :: 0.6551333087932423
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 2538 - 'la:qaq' - lap, lick :: 0.6401456972310466
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 4219 - 'na:tasˤ' - beat down, break down, cast down, destroy, overthrow, pull down, throw down :: 0.6369792655043652
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 4114 - 'na:da:h' - cast out, drive, put far away :: 0.6264437432688665
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 4135 - 'na:ħa:h' - bestow, bring, govern, guide, lead, put, straiten :: 0.6332278974822794
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 4224 - 'na:taʕ' - break :: 0.6298577769629333
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 4311 - 'netaħ' - part, piece :: 0.6188854271230988
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 4296 - 'nebɛk' - spring :: 0.6256994009674766
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 4185 - 'na:qap' - compass, cut down, destroy, go round, inclose, round :: 0.6258476097355621
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 2659 - 'lu:wtˤ' - cast, wrap :: 0.6002246482246354
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 4343 - 'nəħat' - carry, come down, depose, lay up, place :: 0.6082299702020605
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 1837 - 'ja:ʕad' - agree, appoint, assemble, betroth, gather, meet, set :: 0.6037129559341196
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 4201 - 'na:saʕ' - cause blow, bring, get, go, journey, march, remove, set aside, still, be on his way :: 0.607074150857177
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 4221 - 'na:taq' - break, burst, draw, lift up, pluck, pull, root out :: 0.6025115034141217
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 4428 - 'nɛsˤaħ' - alway, constantly, end, ever, perpetual, strength, victory :: 0.6099402407717426
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 2915 - 'sˤam:ɛrɛt' - highest branch, top :: 0.7292475328418866
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 2949 - 'sˤəħi:aħ' - higher place, top :: 0.7713591759843612
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 620 - 'ga:g' - roof, top :: 0.7689319919415672
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 5592 - 'sa:ʕap' - top :: 0.7454692128612259
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 5594 - 'sa:ʕi:p' - branch, clift, top :: 0.7454692128612259
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 815 - 'gɛrɛm' - bone, strong, top :: 0.6702265075346142
+---------
+---------
+Cluster: 1 :: 4 - 'ʦpr' - scribe :: 5576 - 'sa:per' - scribe :: 0.972491826997218
+Cluster: 1 :: 4 - 'ʦpr' - scribe :: 486 - 'dəbi:r' - oracle :: 0.7157890491705117
+Cluster: 1 :: 4 - 'ʦpr' - scribe :: 5660 - 'səpar' - book, roll :: 0.6976138129079863
+Cluster: 1 :: 4 - 'ʦpr' - scribe :: 753 - 'gəbi:r' - lord :: 0.6965865332798606
+Cluster: 1 :: 4 - 'ʦpr' - scribe :: 2416 - 'kɛbɛl' - fetter :: 0.6721544303976095
+Cluster: 1 :: 4 - 'ʦpr' - scribe :: 7724 - 'ʔo:pɛn' - fitly :: 0.6680116328605894
+Cluster: 1 :: 4 - 'ʦpr' - scribe :: 674 - 'ga:ʕar' - corrupt, rebuke, reprove :: 0.6512181749791726
+Cluster: 1 :: 4 - 'ʦpr' - scribe :: 5640 - 'səgan' - governor :: 0.6473970221952299
+Cluster: 1 :: 4 - 'ʦpr' - scribe :: 3 - 'ba:da:l' - piece :: 0.6436110268472577
+Cluster: 1 :: 4 - 'ʦpr' - scribe :: 906 - 'go:ʕal' - loathing :: 0.6355542175680013
+Cluster: 1 :: 4 - 'ʦpr' - scribe :: 142 - 'baʕal' - archer, babbler, bird, captain, chief man, confederate, have do, dreamer, those whom it is due, furious, those are given it, great, hairy, he hath it, have, horseman, husband, lord, man, married, master, person, sworn, they :: 0.6506067174143828
+Cluster: 1 :: 4 - 'ʦpr' - scribe :: 939 - 'ha:da:r' - beauty, comeliness, excellency, glorious, glory, goodly, honour, majesty :: 0.6296800481648429
+Cluster: 1 :: 4 - 'ʦpr' - scribe :: 1606 - 'ħo:tˤer' - rod :: 0.6171406741989438
+Cluster: 1 :: 4 - 'ʦpr' - scribe :: 7739 - 'ʔo:wj' - alas, woe :: 0.6133854225940536
+---------
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 5576 - 'sa:per' - scribe :: 0.972491826997218
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 383 - 'da:ba:r' - act, advice, affair, answer, any such, because of, book, business, care, case, cause, certain rate, chronicles, commandment, commune, concern, confer, counsel, dearth, decree, deed, disease, due, duty, effect, eloquent, errand, ness, glory, harm, hurt, iniquity, judgment, language, lying, manner, matter, message, thing, oracle, ought, parts, pertaining, please, portion, power, promise, provision, purpose, question, rate, reason, report, request, said, sake, saying, sentence, sign, so, some, somewhat say, song, speech, spoken, talk, task, that, there done, thing, thought, thus, tidings, what, wherewith, which, word, work :: 0.7157890491705117
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 486 - 'dəbi:r' - oracle :: 0.7157890491705117
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 386 - 'da:bar' - answer, appoint, bid, command, commune, declare, destroy, give, name, promise, pronounce, rehearse, say, speak, be spokesman, subdue, talk, teach, tell, think, use, utter, well, work :: 0.7070156657651787
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 5660 - 'səpar' - book, roll :: 0.6976138129079863
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 5630 - 'sepɛr' - bill, book, evidence, learn, letter, register, scroll :: 0.6976138129079863
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 393 - 'da:gal' - banners, chiefest :: 0.6880802246038377
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 753 - 'gəbi:r' - lord :: 0.6965865332798606
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 750 - 'gəbar' - certain, man :: 0.6874634798034417
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 749 - 'gəbar' - man :: 0.6874634798034417
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 7723 - 'ʔo:pɛl' - darkness, obscurity, privily :: 0.6745648575036353
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 355 - 'bo:ʔr' - cistern :: 0.6748742278497049
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 2416 - 'kɛbɛl' - fetter :: 0.6721544303976095
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 6192 - 'ʃɛqɛr' - without cause, deceit, false, feignedly, liar, lie, lying, vain, wrongfully :: 0.668834599918503
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 6108 - 'ʃəpal' - abase, humble, put down, subdue :: 0.6694712169534971
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 1154 - 'ħăbar' - companion, fellow :: 0.6611483569528633
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 934 - 'ħa:ber' - companion, fellow, knit together :: 0.6611483569528633
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 1453 - 'ħɛbɛr' - charmer, company, enchantment, wide :: 0.65957347368203
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 7724 - 'ʔo:pɛn' - fitly :: 0.6680116328605894
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 7571 - 'ʔɛbɛn' - carbuncle, mason, plummet, stone, weight :: 0.6654439350402668
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 7152 - 'ʔad:i:r' - excellent, famous, gallant, glorious, goodly, lordly, mighty, noble, principal, worthy :: 0.6616342650739194
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 612 - 'ga:dar' - close up, fence up, hedge, inclose, make up, mason, repairer :: 0.6605895669546789
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 5589 - 'sa:ʔan' - warrior :: 0.6592323514708395
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 7211 - 'ʔaħer' - Aher :: 0.6547233170194481
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 276 - 'bɛtɛr' - part, piece :: 0.654290636635551
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 4610 - 'pa:tar' - interpret :: 0.6441567624940938
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 674 - 'ga:ʕar' - corrupt, rebuke, reprove :: 0.6512181749791726
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 5640 - 'səgan' - governor :: 0.6473970221952299
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 928 - 'ħa:bal' - at all, band, bring forth, corrupt, destroy, offend, lay pledge, spoil, travail, very, withhold :: 0.6470954405976641
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 4765 - 'pɛħa:r' - potter :: 0.6514580997068283
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 6957 - 'zu:wr' - another, fanner, go away, strange :: 0.6443250220817012
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 2839 - 'sˤa:hal' - bellow, cry aloud, lift up, neigh, rejoice, make shine, shout :: 0.6385593635501849
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 3 - 'ba:da:l' - piece :: 0.6436110268472577
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 353 - 'bo:wr' - cistern, dungeon, fountain, pit, well :: 0.6371719690516391
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 906 - 'go:ʕal' - loathing :: 0.6355542175680013
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 142 - 'baʕal' - archer, babbler, bird, captain, chief man, confederate, have do, dreamer, those whom it is due, furious, those are given it, great, hairy, he hath it, have, horseman, husband, lord, man, married, master, person, sworn, they :: 0.6506067174143828
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 939 - 'ha:da:r' - beauty, comeliness, excellency, glorious, glory, goodly, honour, majesty :: 0.6296800481648429
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 7074 - 'ʔa:si:r' - bound, prisoner :: 0.6287757461056618
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 7415 - 'ʔas:i:r' - prisoner :: 0.6286139338361423
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 797 - 'gəzar' - cut out, soothsayer :: 0.6435432817457921
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 823 - 'gɛzɛr' - part, piece :: 0.6277534244343375
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 4741 - 'pəʃar' - make, interpreting :: 0.6176698345030766
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 2480 - 'ko:hen' - chief ruler, own, priest, prince, principal officer :: 0.6273646381761372
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 1606 - 'ħo:tˤer' - rod :: 0.6171406741989438
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 7096 - 'ʔa:wɛn' - affliction, evil, false, idol, iniquity, mischief, mourners, naught, sorrow, unjust, unrighteous, vain, vanity, wicked :: 0.6191776754091427
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 4740 - 'pəsi:l' - carved image, quarry :: 0.6084399420250887
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 7739 - 'ʔo:wj' - alas, woe :: 0.6133854225940536
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 1200 - 'ħajil' - aloud, army, most, power :: 0.6076843846187059
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 1659 - 'ħu:wl' - Hul :: 0.6072191677409926
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 1394 - 'ħejl' - army, bulwark, host, poor, rampart, trench, wall :: 0.6050162896341356
+---------
+Cluster: 0 :: 5 - 'jdʕ' - skillful, know :: 1935 - 'jədaʕ' - certify, know, make known, teach :: 0.9999999128155492
+Cluster: 0 :: 5 - 'jdʕ' - skillful, know :: 1706 - 'ja:daʕ' - acknowledge, acquaintance, advise, answer, appoint, assuredly, be aware, awares, can, certainly, comprehend, consider, could they, cunning, declare, be diligent, discern, discover, endued with, familiar friend, famous, feel, can have, be norant, instruct, kinsfolk, kinsman, know, knowledge, have, known, be learned, lie by man, mark, perceive, privy to, prognosticator, regard, have respect, skilful, shew, can skill, be sure, surety, teach, tell, understand, have, will be, wist, wit, wot :: 0.9999999128155492
+Cluster: 0 :: 5 - 'jdʕ' - skillful, know :: 476 - 'daʕat' - cunning, norantly, know, awares :: 0.8333332752103662
+Cluster: 0 :: 5 - 'jdʕ' - skillful, know :: 4155 - 'na:kar' - acknowledge, could, deliver, discern, dissemble, estrange, feign self be another, know, take knowledge, perceive, regard, respect, behave self strange :: 0.744660151513628
+Cluster: 0 :: 5 - 'jdʕ' - skillful, know :: 284 - 'bi:n' - attend, consider, be cunning, diligently, direct, discern, eloquent, feel, inform, instruct, have intelligence, know, look well to, mark, perceive, be prudent, regard, skill, teach, think, understand, view, wise :: 0.63592230639646
+---------
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 1935 - 'jədaʕ' - certify, know, make known, teach :: 0.9999999128155492
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 1706 - 'ja:daʕ' - acknowledge, acquaintance, advise, answer, appoint, assuredly, be aware, awares, can, certainly, comprehend, consider, could they, cunning, declare, be diligent, discern, discover, endued with, familiar friend, famous, feel, can have, be norant, instruct, kinsfolk, kinsman, know, knowledge, have, known, be learned, lie by man, mark, perceive, privy to, prognosticator, regard, have respect, skilful, shew, can skill, be sure, surety, teach, tell, understand, have, will be, wist, wit, wot :: 0.9999999128155492
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 938 - 'ħa:da:h' - make glad, be joined, rejoice :: 0.7188540299522046
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 7965 - 'ʕa:tˤa:h' - array self, be clad, cover, fill, put on, surely, turn aside :: 0.7157787518053775
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 1934 - 'jəda:ʔ' - thank :: 0.7002996537757563
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 1118 - 'ħa:tak' - determine :: 0.707030592103258
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 1765 - 'ja:pa:h' - be beautiful, be fair, deck :: 0.674796245501192
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 3513 - 'maʕăɬɛh' - act, art, bakemeat, business, deed, do, labor, thing made, ware making, occupation, thing offered, operation, possession, well, work, wrought :: 0.6283145050838492
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 3797 - 'mibtˤa:ħ' - confidence, hope, sure, trust :: 0.6060793944811352
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 7088 - 'ʔa:ta:h' - come, bring :: 0.694181469357745
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 7087 - 'ʔa:ta:h' - come, bring :: 0.694181469357745
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 4794 - 'pɛtaʕ' - at instant, suddenly, very :: 0.6930128108552304
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 952 - 'ha:ga:h' - imagine, meditate, mourn, mutter, roar, sore, speak, study, talk, utter :: 0.7058375521093375
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 1138 - 'ħa:za:h' - behold, look, prophesy, provide, see :: 0.7147886321656594
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 953 - 'ha:ga:h' - stay, stay away :: 0.6807250132970146
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 278 - 'bɛtˤaħ' - assurance, boldly, care, confidence, hope, safe, secure, surely :: 0.6869670363437173
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 1095 - 'ħa:sa:h' - have hope, make refuge, trust :: 0.6799679741741579
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 1637 - 'ħo:zɛh' - agreement, prophet, see that, seer, gazer :: 0.6653491804077905
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 2715 - 'ɬa:tˤa:h' - decline, go aside, turn :: 0.6703342590634366
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 1445 - 'ħezew' - look, vision :: 0.6810825420994242
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 5275 - 'ra:ʔa:h' - advise self, appear, approve, behold, certainly, consider, discern, enjoy, have experience, gaze, take heed, indeed, joyfully, lo, look, mark, meet, be near, perceive, present, provide, regard, respect, see, shew, sight others, spy, stare, surely, think, view, visions :: 0.7188286130572397
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 745 - 'geʔɛh' - proud :: 0.6638178444758407
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 7846 - 'ʕa:ɬaq' - strive :: 0.6589325768801215
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 5278 - 'ra:ʔɛh' - see :: 0.6940766616671512
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 5791 - 'ʃa:keaħ' - forget :: 0.6915599755243835
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 5786 - 'ʃa:kaħ' - at all, forget :: 0.6915599755243835
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 5769 - 'ʃa:gaʕ' - mad :: 0.6754067783123612
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 5906 - 'ʃa:ʔa:h' - wonder :: 0.6883708191728621
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 5767 - 'ʃa:gaħ' - look :: 0.6726683040844053
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 6059 - 'ʃəkaħ' - find :: 0.6723606403394067
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 388 - 'da:da:h' - go :: 0.6695810878097663
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 2290 - 'ka:tab' - describe, record, prescribe, subscribe, write :: 0.6653631108914427
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 2547 - 'la:ʔa:h' - faint, grieve, lothe, weary :: 0.6553512479766501
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 1050 - 'ħa:paz' - haste, tremble :: 0.6542011263510241
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 2220 - 'ka:ba:h' - go out, quench :: 0.6441500379804269
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 1380 - 'ħăza:ʔ' - behold, have, see, be wont :: 0.6874423586168478
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 3717 - 'mətˤa:ʔ' - come, reach :: 0.6616572031843064
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 965 - 'ħa:ja:h' - keep alive, certainly, give life, live, nourish up, preserve, quicken, recover, repair, restore, revive, save, surely, be whole :: 0.6697366653333656
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 4 - 'ba:da:ʔ' - devise, feign :: 0.6499332464589752
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 4561 - 'pa:ɬaʕ' - go :: 0.6629467847594629
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 5370 - 'rəba:h' - make great man, grow :: 0.6434195284712116
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 964 - 'ha:ja:h' - beacon, altogether, be, accomplished, committed, like, break, cause, come, do, faint, fall, follow, happen, have, last, pertain, quit self, require, use :: 0.7060248475206349
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 995 - 'ħa:ɬap' - make bare, clean, discover, draw out, take, uncover :: 0.6632763822024774
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 2033 - 'jəsap' - add :: 0.6419304984012942
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 5839 - 'ʃa:pa:h' - high, stick out :: 0.6363020969149514
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 7974 - 'ʕa:zab' - commit self, fail, forsake, fortify, help, leave, refuse, surely :: 0.6497593458413826
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 1132 - 'ħa:wa:h' - show :: 0.6393252219120058
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 1107 - 'ħa:ʃab' - account, conceive, consider, count, cunning, devise, esteem, find out, forecast, hold, imagine, impute, invent, be like, mean, purpose, reckon, regard, think :: 0.6953658339768982
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 1720 - 'ja:hab' - ascribe, bring, come on, give, go, set, take :: 0.6466037455379837
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 4872 - 'qa:basˤ' - assemble, gather, heap, resort, surely, take up :: 0.6372998010883738
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 4924 - 'qa:pasˤ' - shut, skip, stop, take out way :: 0.631901604741173
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 5519 - 'rŏʔi:' - gazingstock, look to, see :: 0.6667303881183395
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 6033 - 'ʃəbaq' - leave, let alone :: 0.627487784399064
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 6968 - 'ʔa:baq' - wrestle :: 0.628587919284072
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 2828 - 'sˤa:ba:ʔ' - assemble, fight, perform, muster, wait upon, war :: 0.6228497187329891
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 5918 - 'ʃa:ʕa:h' - depart, be dim, be dismayed, look, regard, have respect, spare, turn :: 0.6399822256414471
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 5858 - 'ʃa:qap' - appear, look :: 0.6344806084777809
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 7005 - 'ʔa:kap' - crave :: 0.6253414295201166
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 4165 - 'na:sˤa:h' - be laid waste, runinous, strive :: 0.6178322604221445
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 5538 - 'sa:bab' - bring, cast, fetch, lead, make, walk, whirl, round about, be about on every side, apply, avoid, beset, besiege, bring again, carry, change, cause come about, circuit, compass, drive, environ, on every side, beset round about, inclose, remove, return, set, sit down, turn :: 0.6215341594797104
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 5168 - 'ra:bab' - increase, be many, be more, multiply, ten thousands :: 0.6080989651548172
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 8139 - 'ʕăʃit' - think :: 0.6735211775917529
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 7947 - 'ʕa:ʃat' - shine, think :: 0.6735211775917529
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 5903 - 'ʃa:zap' - look up, see :: 0.6503873488968605
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 5213 - 'ra:sˤa:ʔ' - accept, run :: 0.6179445109435497
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 4202 - 'na:ʃa:h' - forget, deprive, exact :: 0.646576164597936
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 6310 - 'ʃo:waʕ' - bountiful, crying, rich :: 0.6174008065250134
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 6949 - 'zu:waʕ' - tremble :: 0.6119681240064097
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 1657 - 'hu:wk' - bring again, come, go :: 0.6245972768833188
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 1672 - 'ħu:ws' - pity, regard, spare :: 0.6159226119995799
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 1135 - 'ha:wa:ʔ' - be, become, behold, came, cease, cleave, consider, do, give, have, judge, keep, labour, mingle, put, see, seek, set, slay, take heed, tremble, walk, would :: 0.6673517151054517
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 1837 - 'ja:ʕad' - agree, appoint, assemble, betroth, gather, meet, set :: 0.6228898846952498
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 3196 - 'ma:ʃaʃ' - feel, grope, search :: 0.6393559426987012
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 5898 - 'ʃa:wa:h' - avail, behave, bring forth, compare, countervail, equal, lay, be like, make plain, profit, reckon :: 0.6182842701722056
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 4334 - 'nədad' - go :: 0.6199047210672506
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 2952 - 'sˤəħo:q' - laugh :: 0.6166456162160524
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 2840 - 'sˤa:ħaq' - laugh, mock, play, make sport :: 0.6166456162160524
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 6832 - 'za:ʕaq' - assemble, call, cry, come such company, gather, cause be proclaimed :: 0.6104441367505156
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 2552 - 'la:ʕag' - have in derision, laugh, mock, stammering :: 0.6122766849390233
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 2540 - 'la:qatˤ' - gather, glean :: 0.6058984578319061
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 4194 - 'na:sag' - departing away, remove, take, turn away :: 0.6016528397371341
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 5854 - 'ʃa:qad' - hasten, remain, wake, watch :: 0.6040746225568665
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 4129 - 'na:gap' - beat, dash, hurt, plague, slay, smite, strike, stumble, surely, put worse :: 0.6017011017940629
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 4086 - 'mu:wʃ' - feel, handle :: 0.6124951059584482
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 4108 - 'na:batˤ' - behold, consider, look, regard, have respect, see :: 0.6157595232196671
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 4124 - 'na:gad' - bewray, certainly, certify, declare, denounce, expound, fully, messenger, plainly, profess, rehearse, report, shew, speak, surely, tell, utter :: 0.637562871947412
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 476 - 'daʕat' - cunning, norantly, know, awares :: 0.8333332752103662
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 412 - 'da:ma:h' - compare, devise, like, mean, think, use similitudes :: 0.6173723200684534
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 4155 - 'na:kar' - acknowledge, could, deliver, discern, dissemble, estrange, feign self be another, know, take knowledge, perceive, regard, respect, behave self strange :: 0.744660151513628
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 284 - 'bi:n' - attend, consider, be cunning, diligently, direct, discern, eloquent, feel, inform, instruct, have intelligence, know, look well to, mark, perceive, be prudent, regard, skill, teach, think, understand, view, wise :: 0.63592230639646
+---------
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1706 - 'ja:daʕ' - acknowledge, acquaintance, advise, answer, appoint, assuredly, be aware, awares, can, certainly, comprehend, consider, could they, cunning, declare, be diligent, discern, discover, endued with, familiar friend, famous, feel, can have, be norant, instruct, kinsfolk, kinsman, know, knowledge, have, known, be learned, lie by man, mark, perceive, privy to, prognosticator, regard, have respect, skilful, shew, can skill, be sure, surety, teach, tell, understand, have, will be, wist, wit, wot :: 0.9999999128155492
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1935 - 'jədaʕ' - certify, know, make known, teach :: 0.9999999128155492
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 938 - 'ħa:da:h' - make glad, be joined, rejoice :: 0.7188540299522046
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 7965 - 'ʕa:tˤa:h' - array self, be clad, cover, fill, put on, surely, turn aside :: 0.7157787518053775
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1934 - 'jəda:ʔ' - thank :: 0.7002996537757563
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1776 - 'ja:qaʕ' - be alienated, depart, hang, be out joint :: 0.6961462875444461
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1712 - 'ja:gaʕ' - faint, labour, weary :: 0.6847915451866229
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1118 - 'ħa:tak' - determine :: 0.707030592103258
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1767 - 'ja:paʕ' - be light, shew self, shine :: 0.6861443654601723
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2047 - 'jətib' - dwell, set, sit :: 0.6984036752238253
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1769 - 'ja:pɛh' - beautiful, beauty, comely, fair, goodly, pleasant, well :: 0.6907149311516569
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 8321 - 'ʕit:i:' - fit :: 0.6821129273245135
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1765 - 'ja:pa:h' - be beautiful, be fair, deck :: 0.674796245501192
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 3513 - 'maʕăɬɛh' - act, art, bakemeat, business, deed, do, labor, thing made, ware making, occupation, thing offered, operation, possession, well, work, wrought :: 0.6283145050838492
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 3797 - 'mibtˤa:ħ' - confidence, hope, sure, trust :: 0.6060793944811352
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 7088 - 'ʔa:ta:h' - come, bring :: 0.694181469357745
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 7087 - 'ʔa:ta:h' - come, bring :: 0.694181469357745
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4794 - 'pɛtaʕ' - at instant, suddenly, very :: 0.6930128108552304
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 952 - 'ha:ga:h' - imagine, meditate, mourn, mutter, roar, sore, speak, study, talk, utter :: 0.7058375521093375
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1138 - 'ħa:za:h' - behold, look, prophesy, provide, see :: 0.7147886321656594
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 953 - 'ha:ga:h' - stay, stay away :: 0.6807250132970146
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 278 - 'bɛtˤaħ' - assurance, boldly, care, confidence, hope, safe, secure, surely :: 0.6869670363437173
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1129 - 'ħa:tˤab' - cut down, hew, polish :: 0.6756530219430772
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1095 - 'ħa:sa:h' - have hope, make refuge, trust :: 0.6799679741741579
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1637 - 'ħo:zɛh' - agreement, prophet, see that, seer, gazer :: 0.6653491804077905
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2715 - 'ɬa:tˤa:h' - decline, go aside, turn :: 0.6703342590634366
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1445 - 'ħezew' - look, vision :: 0.6810825420994242
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2947 - 'sˤəda:ʔ' - true :: 0.6657357214269723
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5275 - 'ra:ʔa:h' - advise self, appear, approve, behold, certainly, consider, discern, enjoy, have experience, gaze, take heed, indeed, joyfully, lo, look, mark, meet, be near, perceive, present, provide, regard, respect, see, shew, sight others, spy, stare, surely, think, view, visions :: 0.7188286130572397
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 745 - 'geʔɛh' - proud :: 0.6638178444758407
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 941 - 'ħa:dad' - be fierce, sharpen :: 0.6566547227277442
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2293 - 'ka:taʃ' - bray :: 0.654632539417379
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5894 - 'ʃa:taq' - be calm, cease, be quiet :: 0.6485244684443369
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2300 - 'ka:ʔa:h' - broken, be grieved, make sad :: 0.6485523245023542
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 7846 - 'ʕa:ɬaq' - strive :: 0.6589325768801215
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5278 - 'ra:ʔɛh' - see :: 0.6940766616671512
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5791 - 'ʃa:keaħ' - forget :: 0.6915599755243835
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5786 - 'ʃa:kaħ' - at all, forget :: 0.6915599755243835
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5769 - 'ʃa:gaʕ' - mad :: 0.6754067783123612
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5906 - 'ʃa:ʔa:h' - wonder :: 0.6883708191728621
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5767 - 'ʃa:gaħ' - look :: 0.6726683040844053
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 6059 - 'ʃəkaħ' - find :: 0.6723606403394067
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 388 - 'da:da:h' - go :: 0.6695810878097663
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5862 - 'ʃa:qaʕ' - make deep, let down, drown, quench, sink :: 0.6522067845031931
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2290 - 'ka:tab' - describe, record, prescribe, subscribe, write :: 0.6653631108914427
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5511 - 'ro:ʔɛh' - vision :: 0.6490180357110151
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2547 - 'la:ʔa:h' - faint, grieve, lothe, weary :: 0.6553512479766501
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2407 - 'kətab' - write :: 0.6587184499259717
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 6031 - 'ʃəbaħ' - praise :: 0.6546218194085341
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1046 - 'ha:pak' - become, change, come, be converted, give, make, overthrow, perverse, retire, tumble, turn :: 0.6653788853832572
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 7905 - 'ʕa:qaʃ' - make crooked, perverse :: 0.6490276984750185
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 925 - 'ħa:ba:ʔ' - held, hide, do secretly :: 0.6575345539028202
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1050 - 'ħa:paz' - haste, tremble :: 0.6542011263510241
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2220 - 'ka:ba:h' - go out, quench :: 0.6441500379804269
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 7990 - 'ʕăbi:' - thick :: 0.6436913623104537
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1380 - 'ħăza:ʔ' - behold, have, see, be wont :: 0.6874423586168478
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 3717 - 'mətˤa:ʔ' - come, reach :: 0.6616572031843064
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 965 - 'ħa:ja:h' - keep alive, certainly, give life, live, nourish up, preserve, quicken, recover, repair, restore, revive, save, surely, be whole :: 0.6697366653333656
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4 - 'ba:da:ʔ' - devise, feign :: 0.6499332464589752
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 6792 - 'za:ka:h' - be clean, cleanse, be clear, count pure :: 0.6368066652304001
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4561 - 'pa:ɬaʕ' - go :: 0.6629467847594629
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 967 - 'ħa:jɛh' - lively :: 0.6579296463549926
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5370 - 'rəba:h' - make great man, grow :: 0.6434195284712116
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 964 - 'ha:ja:h' - beacon, altogether, be, accomplished, committed, like, break, cause, come, do, faint, fall, follow, happen, have, last, pertain, quit self, require, use :: 0.7060248475206349
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 995 - 'ħa:ɬap' - make bare, clean, discover, draw out, take, uncover :: 0.6632763822024774
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2803 - 'ɬo:baʕ' - fill, full, satisfying, be satisfied :: 0.647128661434641
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2033 - 'jəsap' - add :: 0.6419304984012942
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5839 - 'ʃa:pa:h' - high, stick out :: 0.6363020969149514
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5271 - 'ra:zɛh' - lean :: 0.6467332713057949
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5897 - 'ʃa:tˤap' - drown, flow wash :: 0.6381504642613478
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 7974 - 'ʕa:zab' - commit self, fail, forsake, fortify, help, leave, refuse, surely :: 0.6497593458413826
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1108 - 'ħa:ʃak' - be black, be dark, darken, cause darkness, be dim, hide :: 0.6452368214193309
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5257 - 'ra:ʃaʕ' - condemn, make trouble, vex, be wicked :: 0.6373452035025423
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1132 - 'ħa:wa:h' - show :: 0.6393252219120058
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1107 - 'ħa:ʃab' - account, conceive, consider, count, cunning, devise, esteem, find out, forecast, hold, imagine, impute, invent, be like, mean, purpose, reckon, regard, think :: 0.6953658339768982
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4132 - 'na:gaʕ' - beat, bring, cast, come, draw near, get up, happen, join, near, plague, reach, smite, strike, touch :: 0.658540942521811
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1720 - 'ja:hab' - ascribe, bring, come on, give, go, set, take :: 0.6466037455379837
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1620 - 'ho:wj' - ah, alas, ho, O, woe :: 0.6349156128965953
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 609 - 'ga:dad' - assemble, gather, cut selves :: 0.6304506510146732
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4223 - 'na:taʃ' - destroy, forsake, pluck, pull up, root out, utterly s :: 0.6290923531251291
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2294 - 'ka:tat' - beat, break in pieces, crushed, destroy, discomfit, smite, stamp l :: 0.6306567224493517
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4245 - 'na:ʔa:h' - be beautiful, become, be comely :: 0.6279146078208571
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4109 - 'na:baʕ' - belch out, flowing, pour out, send forth, utter :: 0.6278561835581283
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4872 - 'qa:basˤ' - assemble, gather, heap, resort, surely, take up :: 0.6372998010883738
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4924 - 'qa:pasˤ' - shut, skip, stop, take out way :: 0.631901604741173
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5519 - 'rŏʔi:' - gazingstock, look to, see :: 0.6667303881183395
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5922 - 'ʃa:ʕaʕ' - cry, dandle, delight, play, shut :: 0.6381140348383663
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4181 - 'na:qa:h' - acquit at all, altogether, be blameless, cleanse, clear, cut off, be desolate, be free, be guiltless, be innocent, by no means, be quit, be unpunished, utterly, wholly :: 0.6346157753160213
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5207 - 'ra:kak' - faint, mollify, soft, be tender :: 0.6232806987899435
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2538 - 'la:qaq' - lap, lick :: 0.6308793112700521
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1845 - 'ja:ʕep' - faint, weary :: 0.6189339514921477
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1839 - 'ja:ʕap' - faint, cause fly, weary :: 0.6189339514921477
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5239 - 'ra:paq' - lean :: 0.6289339216586395
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 6033 - 'ʃəbaq' - leave, let alone :: 0.627487784399064
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 6968 - 'ʔa:baq' - wrestle :: 0.628587919284072
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5574 - 'sa:paq' - clap, smite, strike, suffice, wallow :: 0.6273275601910718
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2224 - 'ka:baʃ' - bring into bondage, force, keep under, subdue, bring into subjection :: 0.6214129840640695
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2301 - 'ka:ʔab' - grieving, mar, have pain, make sad, sorrowful :: 0.621358521862009
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2223 - 'ka:bas' - fuller, wash :: 0.6205869334570033
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2940 - 'sˤəbi:' - beautiful, glorious, goodly, pleasant, roe :: 0.6242754767566235
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2828 - 'sˤa:ba:ʔ' - assemble, fight, perform, muster, wait upon, war :: 0.6228497187329891
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 7810 - 'ʕa:bo:t' - thick :: 0.616345088761642
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5846 - 'ʃa:pak' - cast, gush out, pour, shed, slip :: 0.619208424656555
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5633 - 'səba:k' - thick :: 0.6161832764921223
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5210 - 'ra:kaʃ' - gather, get :: 0.6471208364999564
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5918 - 'ʃa:ʕa:h' - depart, be dim, be dismayed, look, regard, have respect, spare, turn :: 0.6399822256414471
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5301 - 'rag:a:z' - trembling :: 0.6151325826961522
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 6867 - 'zeʕa:h' - sweat :: 0.6190165611527194
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5357 - 'rejaħ' - smell :: 0.6186035079854187
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2539 - 'la:qaʃ' - gather :: 0.6204182903044584
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5233 - 'ra:pa:ʔ' - cure, heal, physician, repair, thoroughly, make whole :: 0.6180089373880246
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5546 - 'sa:ħa:h' - scrape :: 0.6155101975929538
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 7052 - 'ʔa:pes' - be clean gone, fail :: 0.6224419968852561
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2872 - 'sˤa:pap' - chatter, peep, whisper :: 0.6183380863517337
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 3185 - 'ma:sak' - mingle :: 0.6155192569337975
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5858 - 'ʃa:qap' - appear, look :: 0.6344806084777809
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 7005 - 'ʔa:kap' - crave :: 0.6253414295201166
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4165 - 'na:sˤa:h' - be laid waste, runinous, strive :: 0.6178322604221445
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2580 - 'leba:b' - bethink themselves, breast, comfortably, courage, heart, midst, mind, unawares, understanding :: 0.6259194327871764
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5538 - 'sa:bab' - bring, cast, fetch, lead, make, walk, whirl, round about, be about on every side, apply, avoid, beset, besiege, bring again, carry, change, cause come about, circuit, compass, drive, environ, on every side, beset round about, inclose, remove, return, set, sit down, turn :: 0.6215341594797104
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5541 - 'sa:bi:b' - about, circuit, compass, on every side :: 0.6198636698980534
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2299 - 'ka:zab' - fail, liar, lie, lying, be in vain :: 0.6253044503417097
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5168 - 'ra:bab' - increase, be many, be more, multiply, ten thousands :: 0.6080989651548172
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 3187 - 'ma:sas' - discourage, faint, be loosed, melt, refuse, utterly :: 0.6194834633239383
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2514 - 'la:bab' - make cakes, ravish, be wise :: 0.6115544557489513
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2890 - 'sˤa:waħ' - shout :: 0.6222472477975448
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 7947 - 'ʕa:ʃat' - shine, think :: 0.6735211775917529
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 8139 - 'ʕăʃit' - think :: 0.6735211775917529
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5903 - 'ʃa:zap' - look up, see :: 0.6503873488968605
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 3139 - 'ma:sˤa:ʔ' - be able, befall, being, catch, certainly, come, deliver, be enough find, get, have, be here, hit, be left, light on, meet, occasion serve, present, ready, speed, suffice, take hold on :: 0.6349849162859867
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5213 - 'ra:sˤa:ʔ' - accept, run :: 0.6179445109435497
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4202 - 'na:ʃa:h' - forget, deprive, exact :: 0.646576164597936
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2674 - 'ɬa:gab' - defend, exalt, be excellent, high, lofty, be safe, set up, be too strong :: 0.6110599767868694
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 6336 - 'ʃu:waʕ' - cry, riches :: 0.6212855588083284
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 6199 - 'ʃɛwaʕ' - cry :: 0.6212855588083284
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5900 - 'ʃa:waʕ' - cry, shout :: 0.6212855588083284
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5520 - 'ru:waħ' - accept, smell, touch, make quick understanding :: 0.6166500127873931
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 6310 - 'ʃo:waʕ' - bountiful, crying, rich :: 0.6174008065250134
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 6949 - 'zu:waʕ' - tremble :: 0.6119681240064097
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1657 - 'hu:wk' - bring again, come, go :: 0.6245972768833188
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1672 - 'ħu:ws' - pity, regard, spare :: 0.6159226119995799
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 8398 - 'ʕu:wz' - gather, retire :: 0.6084441823600083
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1135 - 'ha:wa:ʔ' - be, become, behold, came, cease, cleave, consider, do, give, have, judge, keep, labour, mingle, put, see, seek, set, slay, take heed, tremble, walk, would :: 0.6673517151054517
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4948 - 'qa:ʃaʃ' - gather :: 0.6076351210124102
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 658 - 'ga:ʃaʃ' - grope :: 0.6031834212301344
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 8279 - 'ʕɛʃɛt' - bright :: 0.6047403082559034
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4250 - 'na:ʔaq' - groan :: 0.6083144354596056
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 1837 - 'ja:ʕad' - agree, appoint, assemble, betroth, gather, meet, set :: 0.6228898846952498
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 3196 - 'ma:ʃaʃ' - feel, grope, search :: 0.6393559426987012
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5898 - 'ʃa:wa:h' - avail, behave, bring forth, compare, countervail, equal, lay, be like, make plain, profit, reckon :: 0.6182842701722056
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4334 - 'nədad' - go :: 0.6199047210672506
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4945 - 'qa:ʃab' - attend, hear, give heed, incline, mark, regard :: 0.6270553351339506
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4162 - 'na:ɬag' - ability, be able, attain, get, lay at, put, reach, remove, wax rich, surely, take :: 0.6270561150795266
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2840 - 'sˤa:ħaq' - laugh, mock, play, make sport :: 0.6166456162160524
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2952 - 'sˤəħo:q' - laugh :: 0.6166456162160524
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4134 - 'na:ha:h' - lament, wail :: 0.6044533606788435
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5083 - 'qɛʃɛb' - diligently, hearing, much heed, regarded :: 0.6007250133765185
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4131 - 'na:gaʃ' - approach, bring, come, give place, go hard, near, offer, overtake, present, put, stand :: 0.6127898977893887
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 6832 - 'za:ʕaq' - assemble, call, cry, come such company, gather, cause be proclaimed :: 0.6104441367505156
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 6898 - 'zəʕiq' - cry :: 0.6104441367505156
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 6855 - 'zaʕaq' - cry :: 0.6104441367505156
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5380 - 'rəħasˤ' - trust :: 0.6045634565780265
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2552 - 'la:ʕag' - have in derision, laugh, mock, stammering :: 0.6122766849390233
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2540 - 'la:qatˤ' - gather, glean :: 0.6058984578319061
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4408 - 'nəzaq' - have damage, hurt :: 0.6032739422987935
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 2521 - 'la:ħak' - lick :: 0.6027239763736425
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4194 - 'na:sag' - departing away, remove, take, turn away :: 0.6016528397371341
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 5854 - 'ʃa:qad' - hasten, remain, wake, watch :: 0.6040746225568665
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4129 - 'na:gap' - beat, dash, hurt, plague, slay, smite, strike, stumble, surely, put worse :: 0.6017011017940629
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 6831 - 'za:ʕap' - fret, sad, worse liking, be wroth :: 0.6051461781497283
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4086 - 'mu:wʃ' - feel, handle :: 0.6124951059584482
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4108 - 'na:batˤ' - behold, consider, look, regard, have respect, see :: 0.6157595232196671
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4124 - 'na:gad' - bewray, certainly, certify, declare, denounce, expound, fully, messenger, plainly, profess, rehearse, report, shew, speak, surely, tell, utter :: 0.637562871947412
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 476 - 'daʕat' - cunning, norantly, know, awares :: 0.8333332752103662
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 412 - 'da:ma:h' - compare, devise, like, mean, think, use similitudes :: 0.6173723200684534
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 8023 - 'ʕajin' - affliction, outward appearance, before, think best, colour, conceit, be content, countenance, displease, eye, -sight, face, favour, fountain, furrow, him, humble, knowledge, look, me, open, please, presence, regard, resemblance, sight, thee, them, think, us, well, you :: 0.6102525802095913
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 4155 - 'na:kar' - acknowledge, could, deliver, discern, dissemble, estrange, feign self be another, know, take knowledge, perceive, regard, respect, behave self strange :: 0.744660151513628
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 284 - 'bi:n' - attend, consider, be cunning, diligently, direct, discern, eloquent, feel, inform, instruct, have intelligence, know, look well to, mark, perceive, be prudent, regard, skill, teach, think, understand, view, wise :: 0.63592230639646
+---------

@@ -1,6 +1,6 @@
 # ALeA : Automatic Lexical Aligner 
 
-Version: 0.0.1b
+Version: 0.0.3b
 
 Status: Beta
 
@@ -12,7 +12,7 @@ Release date: 08.01.2020
 
 #### How to cite
 
-Kilani Marwan, 2020, ALeA 0.0.1b : Automatic Lexical Aligner, https://github.com/MKilani/ALeA
+Kilani Marwan, 2020, ALeA 0.0.3b : Automatic Lexical Aligner, https://github.com/MKilani/ALeA
 
 ## Introduction
 
@@ -71,10 +71,10 @@ The following is a valid example (using a small set of Italian words, with IPA t
 
 ```
 [
-	[0, 'mouse', ['tɔpo']],
-	[1, 'garlic', ['aʎʎo']],
-	[2, 'obey, abide, carry out', ['ubbidire', 'obbedire'],
-	[3, 'bread', ['pane']]
+   [0, 'mouse', ['tɔpo']],
+   [1, 'garlic', ['aʎʎo']],
+   [2, 'obey, abide, carry out', ['ubbidire', 'obbedire'],
+   [3, 'bread', ['pane']]
 ]
 ```
 
@@ -107,30 +107,30 @@ Using the example discussed above, this would be a valid list:
 
 ```
 [
-	[0, 'water', -1, -1],
-	[1, 'container', -1, -1],
-	[3, 'basin', 0, -1],
-	[4, 'stream', 0, -1],
-	[5, 'basketry', 1, -1],
-	[6, 'vessel', 1, -1],
-	[7, 'box', 1, -1],
-	[8, 'sea', 0, 3],
-	[9, 'ocean', 0, 3],
-	[10, 'lake', 0, 3],
-	[11, 'pond', 0, 3],
-	[12, 'river', 0, 4],
-	[13, 'wadi', 0, 4],
-	[14, 'creek', 0, 4],
-	[15, 'basket', 1, 5],
-	[16, 'creel', 1, 5],
-	[17, 'pannier, 1, 5],
-	[19, 'bottle', 1, 6],
-	[20, 'jar', 1, 6],
-	[21, 'jug', 1, 6],
-	[22, 'amphore', 1, 6],
-	[23, 'coffer', 1, 7],
-	[24, 'crate', 1, 7],
-	[25, 'chest', 1, 7]
+   [0, 'water', -1, -1],
+   [1, 'container', -1, -1],
+   [3, 'basin', 0, -1],
+   [4, 'stream', 0, -1],
+   [5, 'basketry', 1, -1],
+   [6, 'vessel', 1, -1],
+   [7, 'box', 1, -1],
+   [8, 'sea', 0, 3],
+   [9, 'ocean', 0, 3],
+   [10, 'lake', 0, 3],
+   [11, 'pond', 0, 3],
+   [12, 'river', 0, 4],
+   [13, 'wadi', 0, 4],
+   [14, 'creek', 0, 4],
+   [15, 'basket', 1, 5],
+   [16, 'creel', 1, 5],
+   [17, 'pannier, 1, 5],
+   [19, 'bottle', 1, 6],
+   [20, 'jar', 1, 6],
+   [21, 'jug', 1, 6],
+   [22, 'amphore', 1, 6],
+   [23, 'coffer', 1, 7],
+   [24, 'crate', 1, 7],
+   [25, 'chest', 1, 7]
 ]
 ```
 
@@ -154,10 +154,10 @@ The following is a valid example (using a small set of Italian words, with IPA t
 
 ```
 [
-	[0, 'mouse', ['tɔpo']],
-	[1, 'garlic', ['aʎʎo']],
-	[2, 'obey, abide, carry out', ['ubbidire', 'obbedire'],
-	[3, 'bread', ['pane']]
+   [0, 'mouse', ['tɔpo']],
+   [1, 'garlic', ['aʎʎo']],
+   [2, 'obey, abide, carry out', ['ubbidire', 'obbedire'],
+   [3, 'bread', ['pane']]
 ]
 ```
 
@@ -172,73 +172,102 @@ The algorithm takes the following arguments:
 
 The follwoing arguments are optional:
 
-* **scoreAlignPhon : string** - select type of score according to which the phonetic alignments are organized (string)  
+* **scoreAlignPhon : string** - Select type of score according to which the phonetic alignments are organized
 -- default: "09_Aver_Score_Sem-Phon_Corr"  
--- options: "07_Sim_Score_Phon_Corr_Match", "08_Sim_Score_Phon_Glob_Match", or "09_Aver_Score_Sem-Phon_Corr"  
--- "07_Sim_Score_Phon_Corr_Match" uses the function "(((SumFeat) / (NrFeat * 7.71)) - ((LenSeq - ShortestWord)/1.04 + ((LenAlign - LenSeq)/LenSeq)) * (1-(ShortestWord/LongestWord))) / (LenAlign * 4.77117)"  
--- "09_Aver_Score_Sem-Phon_Corr" is the average between the semantic score and the "07_Sim_Score_Phon_Corr_Match"  
+-- options: "07_Sim_Score_Phon_Corr_Match", "08_Sim_Score_Phon_Glob_Match", "09_Aver_Score_Sem-Phon_Corr", or "10_Aver_Score_Sem-Phon_Glob"
+-- "07_Sim_Score_Phon_Corr_Match" uses the function "(((SumFeat) / (NrFeat * 7.71)) / (LenAlign * 4.77117)"
+-- "09_Aver_Score_Sem-Phon_Corr" is the average between the semantic score and the "07_Sim_Score_Phon_Corr_Match"
+-- "10_Aver_Score_Sem-Phon_Glob" is the average between the semantic score and the "08_Sim_Score_Phon_Glob_Match"
 -- see FAAL documentation for details ( https://github.com/MKilani/FAAL )
 * **verbose : Boolean** - Print logs while executing -- Default: True
 * **semanticLevel : string** - Level of the semantic tags according to which the comparison is performed. The options, for now, are: "Level_01", "Level_02", "Level_03" (see ASeT algorithm for details)
 * **dividers : [ ]** - Dividers to be used to split meanings, if the previous option is set to True -- Default: [","]
-* **phoneticThreshold : float** - Threshold to select the best matches -- default = 0.65
+* **selectBest : string** - Parameter according to which the algorithm selects the best matches among those identified by the ALeA on the basis of the other parameters
+-- default: "07_Sim_Score_Phon_Corr_Match"
+-- options: "07_Sim_Score_Phon_Corr_Match", "08_Sim_Score_Phon_Glob_Match", "09_Aver_Score_Sem-Phon_Corr", or "10_Aver_Score_Sem-Phon_Glob"
+-- "07_Sim_Score_Phon_Corr_Match" uses the function "(((SumFeat) / (NrFeat * 7.71)) / (LenAlign * 4.77117)"
+-- "09_Aver_Score_Sem-Phon_Corr" is the average between the semantic score and the "07_Sim_Score_Phon_Corr_Match"
+-- "10_Aver_Score_Sem-Phon_Glob" is the average between the semantic score and the "08_Sim_Score_Phon_Glob_Match"
+-- see FAAL documentation for details ( https://github.com/MKilani/FAAL )
+* **selectBestThreshold: string** - Threshold for the parameter selectBest -- default: 0.65
+* **parseVow: Boolean** - This allows to decide if the phonetic comparison should take into consideration vowels or not. Ignoring vowels can be useful when dealing with unrelated or relatively distant languages, or with languages in which vowels are rather unstable and semantically secondary (e.g. Semitic languages) -- default: True
+
 
 
 ## Output
 
-The algorithm yields a double output, therefore two variable separated by a comma are needed to store the results:
+The algorithm yields three outputs, therefore three variable separated by commas are needed to store the results:
 
 ```python
-json_semanticSelectionDict, json_semanticSelectionDict_best = ALeA(json_semanticSelection_One, json_semanticSelection_Two, pathModel, scoreAlignPhon = "09_Aver_Score_Sem-Phon_Corr", verbose = False, semanticLevel = "Level_02", dividers = [","], phoneticThreshold = 0.65)
+json_semanticSelectionDict, json_semanticSelectionDict_best, semanticSelectionDict_best_simplified = ALeA(json_semanticSelection_One, json_semanticSelection_Two, pathModel, scoreAlignPhon = "09_Aver_Score_Sem-Phon_Corr", verbose = False, semanticLevel = "Level_02", dividers = [","], selectBest = "07_Sim_Score_Phon_Corr_Match", selectBestThreshold = 0.65, parseVow = True)
 ```
 
 The first output is a nested dictionary (in json format) with all the matches that fits the given parameters. The second output, instead, is selection of the matches that have a score of phonemic similarity that is higher than the **phoneticThreshold** argument.
 
-The format of both outputs is the following:
+The format of the first two outputs is the following:
 
 ```python
 {
-   "0": {                                           # ID entry - index for the following data
-      "0_ID_token": int,                            # ID item lexical list A
-      "1_Meaning_token": string,                    # Meaning(s) item lexical list A
-      "2_Form_token": [                             # Form(s) item lexical list A - spelled in IPA
-         string,
-         string
-      ],
-      "3_Matches": {                                # Organized matches from lexical list B - index for the matches
-         "0": {                                     # ID match
-            "0_ID_Match": int,                      # ID item from lexical list B
-            "1_Meaning_Match": string,              # Meaning(s) item lexical list B
-            "2_Form_Match": [                       # Form(s) item lexical list B - spelled in IPA
-               string,
-               string
-            ],
-            "3_Sim_Score_Sem_Match": float,         # Semantic similarity item list A - item list B
-            "4_Best_Match_Sem": [                   # Meanings of items list A and B with highest semantic similarity
-               string,
-               string
-            ],
-            "5_Best_Match_Phon": [                  # Forms of items list A and B with highest phonetic similarity
-               int,
-               string,
-               int,
-               string
-            ],
-            "6_Sim_Score_Phon_Corr_Match": float,   # Phonetic alignemnt - Corrected similarity score (see FAAL documentation)
-            "7_Sim_Score_Phon_Glob_Match": float,   # Phonetic alignemnt - Global similarity score (see FAAL documentation)
-            "8_Aver_Score_Sem-Phon_Corr": float,    # Phonetic-Semantic alignemnt - Average Corrected similarity score - Semantic score
-            "9_ResultsComp": {
-               "bestAlignCorrected": float,         # Phonetic alignemnt - Corrected similarity score (see FAAL documentation)
-               "bestAlignGlobal": float,            # Phonetic alignemnt - Global similarity score (see FAAL documentation)
-               "wordWithDiacritics_1": string,      # Alignment with diacritic - word A (see FAAL documentation)
-               "wordWithDiacritics_2": string,      # Alignment with diacritic - word B (see FAAL documentation)
-               "wordWithoutDiacritics_1": string,   # Alignment without diacritic - word A (see FAAL documentation)
-               "wordWithoutDiacritics_2": string    # Alignment without diacritic - word B (see FAAL documentation)
+   "0": {                                                 # ID entry - index for the following data
+      "0": {                                              # Semantic Cluster of the match
+         "00_ID_token": int,                               # ID item lexical list A
+         "01_Meaning_token": string,                       # Meaning(s) item lexical list A
+         "02_Form_token": [                                # Form(s) item lexical list A - spelled in IPA
+            string,
+            string
+         ],
+         "03_Matches": {                                  # Organized matches from lexical list B - index for the matches
+            "Level_XX": {                                 # Level of the semantic tags used in the comparison - XX = 01, 02 etc                        
+               "0": {                                     # ID match
+                  "00_ID_Match": int,                      # ID item from lexical list B
+                  "01_Meaning_Match": string,              # Meaning(s) item lexical list B
+                  "02_Form_Match": [                       # Form(s) item lexical list B - spelled in IPA
+                     string,
+                     string
+                  ],
+                  "03_Best_Match_Sem": [                   # Meanings of items list A and B with highest semantic similarity
+                     string,
+                     string
+                  ],
+                  "04_Best_Match_Phon": [                  # Forms of items list A and B with highest phonetic similarity
+                     int,
+                     string,
+                     int,
+                     string
+                  ],
+                  "05_ID_Cluster": int,                   # Semantic Cluster of the match
+                  "06_Sim_Score_Sem_Match": float,         # Semantic similarity item list A - item list B
+                  "07_Sim_Score_Phon_Corr_Match": float,   # Phonetic alignemnt - Corrected similarity score (see FAAL documentation)
+                  "08_Sim_Score_Phon_Glob_Match": float,   # Phonetic alignemnt - Global similarity score (see FAAL documentation)
+                  "09_Aver_Score_Sem-Phon_Corr": float,   # Phonetic-Semantic alignemnt - Average Corrected similarity score - Semantic score
+                  "10_Aver_Score_Sem-Phon_Glob": float,   # Phonetic-Semantic alignemnt - Average Global similarity score - Semantic score
+                  "11_Semantic_Field": string,            # Matching semantic tag
+                  "12_ResultsComp": {
+                     "bestAlignCorrected": float,         # Phonetic alignemnt - Corrected similarity score (see FAAL documentation)
+                     "bestAlignGlobal": float,            # Phonetic alignemnt - Global similarity score (see FAAL documentation)
+                     "wordWithDiacritics_1": string,      # Alignment with diacritic - word A (see FAAL documentation)
+                     "wordWithDiacritics_2": string,      # Alignment with diacritic - word B (see FAAL documentation)
+                     "wordWithoutDiacritics_1": string,   # Alignment without diacritic - word A (see FAAL documentation)
+                     "wordWithoutDiacritics_2": string    # Alignment without diacritic - word B (see FAAL documentation)
+                  }
+               },
+               etc.
             }
-         },
-         etc.
+         }
       }
    },
    etc.
 }
+```
+
+The third output is a list of dictionaries with a summary of the results with only the most relevant informations. Each entry represent a semantic tag, and it contains the following fields:
+
+```
+"01_Entry_ID" : ID of the word in list A.
+"02_Entry_Form" : Form of the word in list A.
+"03_Entry_Meaning" : Meaning of the word in list A.
+"04_Match_ID" : ID of the match from list B.
+"05_Match_Form" : Form of the match from list B.
+"06_Match_Meaning" : ID of the match from list B.
+"07_Selecting_Score_Best" : Score used to select the best matches.
 ```

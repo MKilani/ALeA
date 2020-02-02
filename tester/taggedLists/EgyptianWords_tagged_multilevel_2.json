@@ -1,0 +1,2220 @@
+{
+   "000000": {
+      "00_ID_token": 0,
+      "01_Meaning_token": "a tree",
+      "02_Form_token": [
+         "ʔln"
+      ],
+      "03_Matches": {
+         "Level_01": {
+            "000000": {
+               "00_ID_Match": 11,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "agriculture vegetation plant tree"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.52827501976487,
+               "11_Semantic_Field": "agriculture vegetation plant tree"
+            }
+         },
+         "Level_02": {
+            "000000": {
+               "00_ID_Match": 913,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "tree"
+               ],
+               "05_ID_Cluster": 0,
+               "06_Sim_Score_Sem_Match": 1.0,
+               "11_Semantic_Field": "tree"
+            },
+            "000001": {
+               "00_ID_Match": 364,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "tree trunk"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.6535079940834858,
+               "11_Semantic_Field": "tree trunk"
+            },
+            "000002": {
+               "00_ID_Match": 785,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "trunk of tree"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.6535079940834858,
+               "11_Semantic_Field": "trunk of tree"
+            },
+            "000003": {
+               "00_ID_Match": 2085,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "tree wood"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.6424234487475068,
+               "11_Semantic_Field": "tree wood"
+            },
+            "000004": {
+               "00_ID_Match": 1003,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "baobab tree"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.641863736803217,
+               "11_Semantic_Field": "baobab tree"
+            },
+            "000005": {
+               "00_ID_Match": 2985,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "maple tree"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.6412563922715553,
+               "11_Semantic_Field": "maple tree"
+            },
+            "000006": {
+               "00_ID_Match": 2248,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "peach tree"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.6378279532856062,
+               "11_Semantic_Field": "peach tree"
+            },
+            "000007": {
+               "00_ID_Match": 169,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "coconut tree"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.6351848902980874,
+               "11_Semantic_Field": "coconut tree"
+            },
+            "000008": {
+               "00_ID_Match": 2369,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "kapok tree"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.6351413181649441,
+               "11_Semantic_Field": "kapok tree"
+            },
+            "000009": {
+               "00_ID_Match": 2247,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "apricot tree"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.6329201617918823,
+               "11_Semantic_Field": "apricot tree"
+            },
+            "000010": {
+               "00_ID_Match": 1015,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "chestnut tree"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.6315707527441936,
+               "11_Semantic_Field": "chestnut tree"
+            },
+            "000011": {
+               "00_ID_Match": 1029,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "stump of tree"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.6294724063365598,
+               "11_Semantic_Field": "stump of tree"
+            },
+            "000012": {
+               "00_ID_Match": 261,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "tree stump"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.6294724063365598,
+               "11_Semantic_Field": "tree stump"
+            },
+            "000013": {
+               "00_ID_Match": 1179,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "palm tree"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.6275322537962557,
+               "11_Semantic_Field": "palm tree"
+            },
+            "000014": {
+               "00_ID_Match": 1767,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "banana tree"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.6261257719223023,
+               "11_Semantic_Field": "banana tree"
+            },
+            "000015": {
+               "00_ID_Match": 2814,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "moringa tree"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.6241188067040738,
+               "11_Semantic_Field": "moringa tree"
+            },
+            "000016": {
+               "00_ID_Match": 475,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "mahogany tree"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.6195992256161926,
+               "11_Semantic_Field": "mahogany tree"
+            },
+            "000017": {
+               "00_ID_Match": 306,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "needle tree"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.6082544471394644,
+               "11_Semantic_Field": "needle tree"
+            },
+            "000018": {
+               "00_ID_Match": 474,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "shea nut tree"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.5423180310551736,
+               "11_Semantic_Field": "shea nut tree"
+            },
+            "000019": {
+               "00_ID_Match": 760,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "shrub"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.5273808414251893,
+               "11_Semantic_Field": "shrub"
+            },
+            "000020": {
+               "00_ID_Match": 3036,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "elm"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.5129735507858221,
+               "11_Semantic_Field": "elm"
+            },
+            "000021": {
+               "00_ID_Match": 366,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "banyan"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.5105163275029165,
+               "11_Semantic_Field": "banyan"
+            },
+            "000022": {
+               "00_ID_Match": 2829,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "seedling"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.5104097359745914,
+               "11_Semantic_Field": "seedling"
+            },
+            "000023": {
+               "00_ID_Match": 363,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "vine"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.5095389337917393,
+               "11_Semantic_Field": "vine"
+            },
+            "000024": {
+               "00_ID_Match": 540,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "manzanita"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.5042095106748318,
+               "11_Semantic_Field": "manzanita"
+            },
+            "000025": {
+               "00_ID_Match": 2970,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "twig"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.5031572810362801,
+               "11_Semantic_Field": "twig"
+            },
+            "000026": {
+               "00_ID_Match": 974,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "acorn"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4987669374784355,
+               "11_Semantic_Field": "acorn"
+            },
+            "000027": {
+               "00_ID_Match": 1884,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "fir"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.497183512555552,
+               "11_Semantic_Field": "fir"
+            },
+            "000028": {
+               "00_ID_Match": 2791,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "eucalypt"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4971602637721725,
+               "11_Semantic_Field": "eucalypt"
+            },
+            "000029": {
+               "00_ID_Match": 2456,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "cactus"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.49695477310664804,
+               "11_Semantic_Field": "cactus"
+            },
+            "000030": {
+               "00_ID_Match": 259,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "flower"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.49599035525956753,
+               "11_Semantic_Field": "flower"
+            },
+            "000031": {
+               "00_ID_Match": 829,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "poplar"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.49598818512641135,
+               "11_Semantic_Field": "poplar"
+            },
+            "000032": {
+               "00_ID_Match": 642,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "leaf"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4956480903096595,
+               "11_Semantic_Field": "leaf"
+            },
+            "000033": {
+               "00_ID_Match": 601,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "garden"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.49561125152149543,
+               "11_Semantic_Field": "garden"
+            },
+            "000034": {
+               "00_ID_Match": 657,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "oak"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4925593868890406,
+               "11_Semantic_Field": "oak"
+            },
+            "000035": {
+               "00_ID_Match": 2476,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "bulb"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4912007770575037,
+               "11_Semantic_Field": "bulb"
+            },
+            "000036": {
+               "00_ID_Match": 2983,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "cypress"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4910774452265586,
+               "11_Semantic_Field": "cypress"
+            },
+            "000037": {
+               "00_ID_Match": 489,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "pandanus"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4898391437662443,
+               "11_Semantic_Field": "pandanus"
+            },
+            "000038": {
+               "00_ID_Match": 650,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "moss"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4885304417781825,
+               "11_Semantic_Field": "moss"
+            },
+            "000039": {
+               "00_ID_Match": 1658,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "bush"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.48708117785437016,
+               "11_Semantic_Field": "bush"
+            },
+            "000040": {
+               "00_ID_Match": 1825,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "birch"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4854633984639334,
+               "11_Semantic_Field": "birch"
+            },
+            "000041": {
+               "00_ID_Match": 1917,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "beech"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.48485036242943286,
+               "11_Semantic_Field": "beech"
+            },
+            "000042": {
+               "00_ID_Match": 370,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "mangrove"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.48378765591188,
+               "11_Semantic_Field": "mangrove"
+            },
+            "000043": {
+               "00_ID_Match": 1713,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "pine"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4832428893180357,
+               "11_Semantic_Field": "pine"
+            },
+            "000044": {
+               "00_ID_Match": 872,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "pumpkin"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4831781463558492,
+               "11_Semantic_Field": "pumpkin"
+            },
+            "000045": {
+               "00_ID_Match": 2971,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "branch twig"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4830797340645191,
+               "11_Semantic_Field": "branch twig"
+            },
+            "000046": {
+               "00_ID_Match": 484,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "alang-alang grass"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.48273529251649944,
+               "11_Semantic_Field": "alang-alang grass"
+            },
+            "000047": {
+               "00_ID_Match": 621,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "grass"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.48273529251649944,
+               "11_Semantic_Field": "grass"
+            },
+            "000048": {
+               "00_ID_Match": 2011,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "persimmon"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.48166177575388847,
+               "11_Semantic_Field": "persimmon"
+            },
+            "000049": {
+               "00_ID_Match": 431,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "gourd"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4811708789967041,
+               "11_Semantic_Field": "gourd"
+            },
+            "000050": {
+               "00_ID_Match": 1167,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "hawthorn"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.48112310817413534,
+               "11_Semantic_Field": "hawthorn"
+            },
+            "000051": {
+               "00_ID_Match": 1308,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "apple"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4802314744871476,
+               "11_Semantic_Field": "apple"
+            },
+            "000052": {
+               "00_ID_Match": 1202,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "bark"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.47923335533183303,
+               "11_Semantic_Field": "bark"
+            },
+            "000053": {
+               "00_ID_Match": 139,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "larch"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4788128676026548,
+               "11_Semantic_Field": "larch"
+            },
+            "000054": {
+               "00_ID_Match": 910,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "aspen"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4785842236343909,
+               "11_Semantic_Field": "aspen"
+            },
+            "000055": {
+               "00_ID_Match": 1772,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "dandelion"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4761568728955369,
+               "11_Semantic_Field": "dandelion"
+            },
+            "000056": {
+               "00_ID_Match": 826,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "willow"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.47583405599505185,
+               "11_Semantic_Field": "willow"
+            },
+            "000057": {
+               "00_ID_Match": 2510,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "jackfruit"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.47313530209456617,
+               "11_Semantic_Field": "jackfruit"
+            },
+            "000058": {
+               "00_ID_Match": 565,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "spruce"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4728731523460035,
+               "11_Semantic_Field": "spruce"
+            },
+            "000059": {
+               "00_ID_Match": 3110,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "gourd melon"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.47286733725573216,
+               "11_Semantic_Field": "gourd melon"
+            },
+            "000060": {
+               "00_ID_Match": 2251,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "mugwort"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.47086516831479985,
+               "11_Semantic_Field": "mugwort"
+            },
+            "000061": {
+               "00_ID_Match": 3020,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "bloom"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4705561359483319,
+               "11_Semantic_Field": "bloom"
+            },
+            "000062": {
+               "00_ID_Match": 1894,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "bamboo"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4700637650084634,
+               "11_Semantic_Field": "bamboo"
+            },
+            "000063": {
+               "00_ID_Match": 2819,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "treetop"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4700149348355389,
+               "11_Semantic_Field": "treetop"
+            },
+            "000064": {
+               "00_ID_Match": 1664,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "fence"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.46833844524804086,
+               "11_Semantic_Field": "fence"
+            },
+            "000065": {
+               "00_ID_Match": 2010,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "peach"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.46824331392210644,
+               "11_Semantic_Field": "peach"
+            },
+            "000066": {
+               "00_ID_Match": 2840,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "turnip"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4675770157181556,
+               "11_Semantic_Field": "turnip"
+            },
+            "000067": {
+               "00_ID_Match": 2411,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "herb"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.46746382753685095,
+               "11_Semantic_Field": "herb"
+            },
+            "000068": {
+               "00_ID_Match": 2615,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "leaf spine"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.46638406293266044,
+               "11_Semantic_Field": "leaf spine"
+            },
+            "000069": {
+               "00_ID_Match": 976,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "coconut"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.46539995475051366,
+               "11_Semantic_Field": "coconut"
+            },
+            "000070": {
+               "00_ID_Match": 2274,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "liana"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.46487432954718383,
+               "11_Semantic_Field": "liana"
+            },
+            "000071": {
+               "00_ID_Match": 527,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "melon"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.46484555506477304,
+               "11_Semantic_Field": "melon"
+            },
+            "000072": {
+               "00_ID_Match": 2568,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "osmanthus fragrans"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4641364467924722,
+               "11_Semantic_Field": "osmanthus fragrans"
+            },
+            "000073": {
+               "00_ID_Match": 929,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "pear"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.46396334136692785,
+               "11_Semantic_Field": "pear"
+            },
+            "000074": {
+               "00_ID_Match": 198,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "betel pepper vine"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4634989533920642,
+               "11_Semantic_Field": "betel pepper vine"
+            },
+            "000075": {
+               "00_ID_Match": 541,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "tule"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.46185176139520656,
+               "11_Semantic_Field": "tule"
+            },
+            "000076": {
+               "00_ID_Match": 1127,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "citrus fruit"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4617645489919991,
+               "11_Semantic_Field": "citrus fruit"
+            },
+            "000077": {
+               "00_ID_Match": 1967,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "clove"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.46102550405209186,
+               "11_Semantic_Field": "clove"
+            },
+            "000078": {
+               "00_ID_Match": 2999,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "foxtail millet"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4606434179606712,
+               "11_Semantic_Field": "foxtail millet"
+            },
+            "000079": {
+               "00_ID_Match": 2569,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "sweet olive flower"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4604906468655314,
+               "11_Semantic_Field": "sweet olive flower"
+            },
+            "000080": {
+               "00_ID_Match": 2902,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "strawberry"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4603163671927966,
+               "11_Semantic_Field": "strawberry"
+            },
+            "000081": {
+               "00_ID_Match": 2621,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "blueberry"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.46007958119777653,
+               "11_Semantic_Field": "blueberry"
+            },
+            "000082": {
+               "00_ID_Match": 2858,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "crops"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4599304748251549,
+               "11_Semantic_Field": "crops"
+            },
+            "000083": {
+               "00_ID_Match": 2466,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "asparagus"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4595227740630356,
+               "11_Semantic_Field": "asparagus"
+            },
+            "000084": {
+               "00_ID_Match": 672,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "reed"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.459492518861354,
+               "11_Semantic_Field": "reed"
+            },
+            "000085": {
+               "00_ID_Match": 371,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "taro"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.45906411338696573,
+               "11_Semantic_Field": "taro"
+            },
+            "000086": {
+               "00_ID_Match": 3021,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "weed"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4589979260684977,
+               "11_Semantic_Field": "weed"
+            },
+            "000087": {
+               "00_ID_Match": 1798,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "harvest crops"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4589620864929443,
+               "11_Semantic_Field": "harvest crops"
+            },
+            "000088": {
+               "00_ID_Match": 2284,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "mango"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.45879624157820154,
+               "11_Semantic_Field": "mango"
+            },
+            "000089": {
+               "00_ID_Match": 2567,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "peach blossom"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.45863644317522206,
+               "11_Semantic_Field": "peach blossom"
+            },
+            "000090": {
+               "00_ID_Match": 626,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "harvest"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.45799777427467514,
+               "11_Semantic_Field": "harvest"
+            },
+            "000091": {
+               "00_ID_Match": 2833,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "bear fruit"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.45799670820422705,
+               "11_Semantic_Field": "bear fruit"
+            },
+            "000092": {
+               "00_ID_Match": 3146,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "wax gourd"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.457366577943044,
+               "11_Semantic_Field": "wax gourd"
+            },
+            "000093": {
+               "00_ID_Match": 2316,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "tucuma palm"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4572291447518635,
+               "11_Semantic_Field": "tucuma palm"
+            },
+            "000094": {
+               "00_ID_Match": 2813,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "lontar palm"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4572291447518635,
+               "11_Semantic_Field": "lontar palm"
+            },
+            "000095": {
+               "00_ID_Match": 460,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "chonta palm"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4572291447518635,
+               "11_Semantic_Field": "chonta palm"
+            },
+            "000096": {
+               "00_ID_Match": 2919,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "gebang palm"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4572291447518635,
+               "11_Semantic_Field": "gebang palm"
+            },
+            "000097": {
+               "00_ID_Match": 2817,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "green coconut"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.45702931863966095,
+               "11_Semantic_Field": "green coconut"
+            },
+            "000098": {
+               "00_ID_Match": 362,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "hay"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4567924353946658,
+               "11_Semantic_Field": "hay"
+            },
+            "000099": {
+               "00_ID_Match": 1871,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "shovel"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4564548446356758,
+               "11_Semantic_Field": "shovel"
+            },
+            "000100": {
+               "00_ID_Match": 307,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "cone"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.45637120767535927,
+               "11_Semantic_Field": "cone"
+            },
+            "000101": {
+               "00_ID_Match": 2255,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "radish"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4562732315064182,
+               "11_Semantic_Field": "radish"
+            },
+            "000102": {
+               "00_ID_Match": 654,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "mushroom"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4561118748069087,
+               "11_Semantic_Field": "mushroom"
+            },
+            "000103": {
+               "00_ID_Match": 2566,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "apricot blossom"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.45609334897798876,
+               "11_Semantic_Field": "apricot blossom"
+            },
+            "000104": {
+               "00_ID_Match": 876,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "banana"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.45573732960866964,
+               "11_Semantic_Field": "banana"
+            },
+            "000105": {
+               "00_ID_Match": 1659,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "bud"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4556737812098707,
+               "11_Semantic_Field": "bud"
+            },
+            "000106": {
+               "00_ID_Match": 2249,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "lotus"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4554117540268554,
+               "11_Semantic_Field": "lotus"
+            },
+            "000107": {
+               "00_ID_Match": 2317,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "pineapple"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.45509227238477484,
+               "11_Semantic_Field": "pineapple"
+            },
+            "000108": {
+               "00_ID_Match": 2009,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "walnut"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.454584388087219,
+               "11_Semantic_Field": "walnut"
+            },
+            "000109": {
+               "00_ID_Match": 304,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "hoe"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.45413316766000644,
+               "11_Semantic_Field": "hoe"
+            },
+            "000110": {
+               "00_ID_Match": 303,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "paddy"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.45336531521387075,
+               "11_Semantic_Field": "paddy"
+            },
+            "000111": {
+               "00_ID_Match": 1923,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "sunflower"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.45259668508287293,
+               "11_Semantic_Field": "sunflower"
+            },
+            "000112": {
+               "00_ID_Match": 2318,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "cashew"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.452178330347419,
+               "11_Semantic_Field": "cashew"
+            },
+            "000113": {
+               "00_ID_Match": 666,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "plant"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4520220728990647,
+               "11_Semantic_Field": "plant"
+            },
+            "000114": {
+               "00_ID_Match": 683,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "root"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4510265944997562,
+               "11_Semantic_Field": "root"
+            },
+            "000115": {
+               "00_ID_Match": 988,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "lime"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4508771418740016,
+               "11_Semantic_Field": "lime"
+            },
+            "000116": {
+               "00_ID_Match": 934,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "manioc"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.45087600287512053,
+               "11_Semantic_Field": "manioc"
+            },
+            "000117": {
+               "00_ID_Match": 1125,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "pipe"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.45086781194628184,
+               "11_Semantic_Field": "pipe"
+            },
+            "000118": {
+               "00_ID_Match": 211,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "mow"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.45075861991884136,
+               "11_Semantic_Field": "mow"
+            },
+            "000119": {
+               "00_ID_Match": 1969,
+               "03_Best_Match_Sem": [
+                  "a tree",
+                  "ditch"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4505763553936816,
+               "11_Semantic_Field": "ditch"
+            }
+         }
+      }
+   },
+   "000001": {
+      "00_ID_token": 1,
+      "01_Meaning_token": "quiver",
+      "02_Form_token": [
+         "ʔspt"
+      ],
+      "03_Matches": {
+         "Level_01": {
+            "000000": {
+               "00_ID_Match": 10,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "warfare hunting weapon gun bow knife"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.44524770957585785,
+               "11_Semantic_Field": "warfare hunting weapon gun bow knife"
+            },
+            "000001": {
+               "00_ID_Match": 9,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "body hand leg head torso belly"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4440830712764229,
+               "11_Semantic_Field": "body hand leg head torso belly"
+            }
+         },
+         "Level_02": {
+            "000000": {
+               "00_ID_Match": 1001,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "quiver"
+               ],
+               "05_ID_Cluster": 0,
+               "06_Sim_Score_Sem_Match": 1.0,
+               "11_Semantic_Field": "quiver"
+            },
+            "000001": {
+               "00_ID_Match": 1000,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "bow"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.47929386869419716,
+               "11_Semantic_Field": "bow"
+            },
+            "000002": {
+               "00_ID_Match": 983,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "arrow"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.47254689158448676,
+               "11_Semantic_Field": "arrow"
+            },
+            "000003": {
+               "00_ID_Match": 75,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "shiver"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4716086107646702,
+               "11_Semantic_Field": "shiver"
+            },
+            "000004": {
+               "00_ID_Match": 3338,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "tickle"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.46458370878184546,
+               "11_Semantic_Field": "tickle"
+            },
+            "000005": {
+               "00_ID_Match": 1786,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "ache"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4623729400251288,
+               "11_Semantic_Field": "ache"
+            },
+            "000006": {
+               "00_ID_Match": 3309,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "bleed"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.46086540271898574,
+               "11_Semantic_Field": "bleed"
+            },
+            "000007": {
+               "00_ID_Match": 2973,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "bow crossbow"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4600567191020054,
+               "11_Semantic_Field": "bow crossbow"
+            },
+            "000008": {
+               "00_ID_Match": 493,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "spear"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4596263817379587,
+               "11_Semantic_Field": "spear"
+            },
+            "000009": {
+               "00_ID_Match": 1077,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "fishhook"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.45893190847893484,
+               "11_Semantic_Field": "fishhook"
+            },
+            "000010": {
+               "00_ID_Match": 1246,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "belly"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.45845367917662266,
+               "11_Semantic_Field": "belly"
+            },
+            "000011": {
+               "00_ID_Match": 1159,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "fart"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.456742195177581,
+               "11_Semantic_Field": "fart"
+            },
+            "000012": {
+               "00_ID_Match": 1390,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "bite"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4559582653404323,
+               "11_Semantic_Field": "bite"
+            },
+            "000013": {
+               "00_ID_Match": 1034,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "yawn"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4551733665395533,
+               "11_Semantic_Field": "yawn"
+            },
+            "000014": {
+               "00_ID_Match": 3000,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "pulse"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.45399476969688735,
+               "11_Semantic_Field": "pulse"
+            },
+            "000015": {
+               "00_ID_Match": 1199,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "feather"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.45346587040919356,
+               "11_Semantic_Field": "feather"
+            },
+            "000016": {
+               "00_ID_Match": 571,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "dislocate"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.45341241350831074,
+               "11_Semantic_Field": "dislocate"
+            },
+            "000017": {
+               "00_ID_Match": 1493,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "chin"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.45318012907026256,
+               "11_Semantic_Field": "chin"
+            },
+            "000018": {
+               "00_ID_Match": 407,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "sling"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.452909810207398,
+               "11_Semantic_Field": "sling"
+            },
+            "000019": {
+               "00_ID_Match": 1249,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "head"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4527129751421493,
+               "11_Semantic_Field": "head"
+            },
+            "000020": {
+               "00_ID_Match": 452,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "blowgun"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.45251101405234,
+               "11_Semantic_Field": "blowgun"
+            },
+            "000021": {
+               "00_ID_Match": 2060,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "belly stomach"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4517248393973526,
+               "11_Semantic_Field": "belly stomach"
+            },
+            "000022": {
+               "00_ID_Match": 1568,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "chest"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4513516350652849,
+               "11_Semantic_Field": "chest"
+            },
+            "000023": {
+               "00_ID_Match": 687,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "mouth"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4510501426232461,
+               "11_Semantic_Field": "mouth"
+            },
+            "000024": {
+               "00_ID_Match": 1641,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "mute"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4503924970950501,
+               "11_Semantic_Field": "mute"
+            },
+            "000025": {
+               "00_ID_Match": 1216,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "tail"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4501195026808286,
+               "11_Semantic_Field": "tail"
+            },
+            "000026": {
+               "00_ID_Match": 813,
+               "03_Best_Match_Sem": [
+                  "quiver",
+                  "spine"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4501155416722158,
+               "11_Semantic_Field": "spine"
+            }
+         }
+      }
+   },
+   "000002": {
+      "00_ID_token": 2,
+      "01_Meaning_token": "assist, assisting person, aide",
+      "02_Form_token": [
+         "ʕʣr"
+      ],
+      "03_Matches": {
+         "Level_01": {
+            "000000": {
+               "00_ID_Match": 16,
+               "03_Best_Match_Sem": [
+                  "aide",
+                  "social political"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4385916123876227,
+               "11_Semantic_Field": "social political"
+            },
+            "000001": {
+               "00_ID_Match": 6,
+               "03_Best_Match_Sem": [
+                  "aide",
+                  "speech language"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.43585533691587125,
+               "11_Semantic_Field": "speech language"
+            },
+            "000002": {
+               "00_ID_Match": 7,
+               "03_Best_Match_Sem": [
+                  "assisting person",
+                  "time"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.43558652887517996,
+               "11_Semantic_Field": "time"
+            },
+            "000003": {
+               "00_ID_Match": 2,
+               "03_Best_Match_Sem": [
+                  "assisting person",
+                  "house"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.43508481836070173,
+               "11_Semantic_Field": "house"
+            },
+            "000004": {
+               "00_ID_Match": 3,
+               "03_Best_Match_Sem": [
+                  "assisting person",
+                  "animals"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4346887789652566,
+               "11_Semantic_Field": "animals"
+            },
+            "000005": {
+               "00_ID_Match": 5,
+               "03_Best_Match_Sem": [
+                  "assisting person",
+                  "religion belief"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.43305487012001237,
+               "11_Semantic_Field": "religion belief"
+            }
+         },
+         "Level_02": {
+            "000000": {
+               "00_ID_Match": 1867,
+               "03_Best_Match_Sem": [
+                  "assist",
+                  "help"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.5171506264340557,
+               "11_Semantic_Field": "help"
+            },
+            "000001": {
+               "00_ID_Match": 3074,
+               "03_Best_Match_Sem": [
+                  "aide",
+                  "official"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4940802718587433,
+               "11_Semantic_Field": "official"
+            },
+            "000002": {
+               "00_ID_Match": 860,
+               "03_Best_Match_Sem": [
+                  "aide",
+                  "priest"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4568424129900271,
+               "11_Semantic_Field": "priest"
+            },
+            "000003": {
+               "00_ID_Match": 1777,
+               "03_Best_Match_Sem": [
+                  "assist",
+                  "begin"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4531004287937956,
+               "11_Semantic_Field": "begin"
+            },
+            "000004": {
+               "00_ID_Match": 3149,
+               "03_Best_Match_Sem": [
+                  "assist",
+                  "begin start"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.45081810664941674,
+               "11_Semantic_Field": "begin start"
+            },
+            "000005": {
+               "00_ID_Match": 2788,
+               "03_Best_Match_Sem": [
+                  "aide",
+                  "former"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.45066279644793,
+               "11_Semantic_Field": "former"
+            }
+         }
+      }
+   },
+   "000003": {
+      "00_ID_token": 3,
+      "01_Meaning_token": "peak, top, summit",
+      "02_Form_token": [
+         "rʔʃ"
+      ],
+      "03_Matches": {
+         "Level_01": {
+            "000000": {
+               "00_ID_Match": 7,
+               "03_Best_Match_Sem": [
+                  "peak",
+                  "time"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.44528176734110886,
+               "11_Semantic_Field": "time"
+            }
+         },
+         "Level_02": {
+            "000000": {
+               "00_ID_Match": 1590,
+               "03_Best_Match_Sem": [
+                  "summit",
+                  "summit"
+               ],
+               "05_ID_Cluster": 0,
+               "06_Sim_Score_Sem_Match": 1.0,
+               "11_Semantic_Field": "summit"
+            },
+            "000001": {
+               "00_ID_Match": 1726,
+               "03_Best_Match_Sem": [
+                  "top",
+                  "top"
+               ],
+               "05_ID_Cluster": 0,
+               "06_Sim_Score_Sem_Match": 1.0,
+               "11_Semantic_Field": "top"
+            },
+            "000002": {
+               "00_ID_Match": 2129,
+               "03_Best_Match_Sem": [
+                  "peak",
+                  "peak"
+               ],
+               "05_ID_Cluster": 0,
+               "06_Sim_Score_Sem_Match": 1.0,
+               "11_Semantic_Field": "peak"
+            },
+            "000003": {
+               "00_ID_Match": 1536,
+               "03_Best_Match_Sem": [
+                  "peak",
+                  "beginning"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4670401715073475,
+               "11_Semantic_Field": "beginning"
+            },
+            "000004": {
+               "00_ID_Match": 1738,
+               "03_Best_Match_Sem": [
+                  "top",
+                  "finish"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.46240566585586174,
+               "11_Semantic_Field": "finish"
+            },
+            "000005": {
+               "00_ID_Match": 1456,
+               "03_Best_Match_Sem": [
+                  "peak",
+                  "winter"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.46091632623345796,
+               "11_Semantic_Field": "winter"
+            },
+            "000006": {
+               "00_ID_Match": 471,
+               "03_Best_Match_Sem": [
+                  "peak",
+                  "harmattan"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4563952923745889,
+               "11_Semantic_Field": "harmattan"
+            },
+            "000007": {
+               "00_ID_Match": 1330,
+               "03_Best_Match_Sem": [
+                  "peak",
+                  "summer"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.45555304600779434,
+               "11_Semantic_Field": "summer"
+            },
+            "000008": {
+               "00_ID_Match": 2653,
+               "03_Best_Match_Sem": [
+                  "summit",
+                  "march"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4552487576674523,
+               "11_Semantic_Field": "march"
+            },
+            "000009": {
+               "00_ID_Match": 1266,
+               "03_Best_Match_Sem": [
+                  "peak",
+                  "autumn"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4546322574519221,
+               "11_Semantic_Field": "autumn"
+            },
+            "000010": {
+               "00_ID_Match": 1516,
+               "03_Best_Match_Sem": [
+                  "peak",
+                  "springtime"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4539215863463703,
+               "11_Semantic_Field": "springtime"
+            },
+            "000011": {
+               "00_ID_Match": 740,
+               "03_Best_Match_Sem": [
+                  "peak",
+                  "dawn"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4538693480169733,
+               "11_Semantic_Field": "dawn"
+            },
+            "000012": {
+               "00_ID_Match": 685,
+               "03_Best_Match_Sem": [
+                  "peak",
+                  "early"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4521272235186132,
+               "11_Semantic_Field": "early"
+            },
+            "000013": {
+               "00_ID_Match": 2195,
+               "03_Best_Match_Sem": [
+                  "peak",
+                  "sunrise"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.45180043264780945,
+               "11_Semantic_Field": "sunrise"
+            },
+            "000014": {
+               "00_ID_Match": 2194,
+               "03_Best_Match_Sem": [
+                  "peak",
+                  "sunset"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.45175313340631157,
+               "11_Semantic_Field": "sunset"
+            },
+            "000015": {
+               "00_ID_Match": 528,
+               "03_Best_Match_Sem": [
+                  "peak",
+                  "period"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4513119566780532,
+               "11_Semantic_Field": "period"
+            },
+            "000016": {
+               "00_ID_Match": 2196,
+               "03_Best_Match_Sem": [
+                  "peak",
+                  "dusk"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4507729836316461,
+               "11_Semantic_Field": "dusk"
+            }
+         }
+      }
+   },
+   "000004": {
+      "00_ID_token": 4,
+      "01_Meaning_token": "scribe",
+      "02_Form_token": [
+         "ʦpr"
+      ],
+      "03_Matches": {
+         "Level_01": {
+            "000000": {
+               "00_ID_Match": 20,
+               "03_Best_Match_Sem": [
+                  "scribe",
+                  "kinship"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4257002192542311,
+               "11_Semantic_Field": "kinship"
+            },
+            "000001": {
+               "00_ID_Match": 21,
+               "03_Best_Match_Sem": [
+                  "scribe",
+                  "miscellaneous function words"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.42366794730393686,
+               "11_Semantic_Field": "miscellaneous function words"
+            },
+            "000002": {
+               "00_ID_Match": 6,
+               "03_Best_Match_Sem": [
+                  "scribe",
+                  "speech language"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4231606016733881,
+               "11_Semantic_Field": "speech language"
+            },
+            "000003": {
+               "00_ID_Match": 9,
+               "03_Best_Match_Sem": [
+                  "scribe",
+                  "body hand leg head torso belly"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4224713277416625,
+               "11_Semantic_Field": "body hand leg head torso belly"
+            },
+            "000004": {
+               "00_ID_Match": 2,
+               "03_Best_Match_Sem": [
+                  "scribe",
+                  "house"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.42212524758055425,
+               "11_Semantic_Field": "house"
+            },
+            "000005": {
+               "00_ID_Match": 10,
+               "03_Best_Match_Sem": [
+                  "scribe",
+                  "warfare hunting weapon gun bow knife"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4206403377239049,
+               "11_Semantic_Field": "warfare hunting weapon gun bow knife"
+            },
+            "000006": {
+               "00_ID_Match": 16,
+               "03_Best_Match_Sem": [
+                  "scribe",
+                  "social political"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4205108134861166,
+               "11_Semantic_Field": "social political"
+            }
+         },
+         "Level_02": {
+            "000000": {
+               "00_ID_Match": 321,
+               "03_Best_Match_Sem": [
+                  "scribe",
+                  "chieftain"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.47064978008479946,
+               "11_Semantic_Field": "chieftain"
+            },
+            "000001": {
+               "00_ID_Match": 1050,
+               "03_Best_Match_Sem": [
+                  "scribe",
+                  "poet"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.47047902038875083,
+               "11_Semantic_Field": "poet"
+            },
+            "000002": {
+               "00_ID_Match": 2012,
+               "03_Best_Match_Sem": [
+                  "scribe",
+                  "column"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4664874886924744,
+               "11_Semantic_Field": "column"
+            },
+            "000003": {
+               "00_ID_Match": 2131,
+               "03_Best_Match_Sem": [
+                  "scribe",
+                  "chatterer"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4600541977835199,
+               "11_Semantic_Field": "chatterer"
+            },
+            "000004": {
+               "00_ID_Match": 2916,
+               "03_Best_Match_Sem": [
+                  "scribe",
+                  "lord"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.45789814873646084,
+               "11_Semantic_Field": "lord"
+            },
+            "000005": {
+               "00_ID_Match": 2026,
+               "03_Best_Match_Sem": [
+                  "scribe",
+                  "story"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.45528305258946805,
+               "11_Semantic_Field": "story"
+            },
+            "000006": {
+               "00_ID_Match": 1647,
+               "03_Best_Match_Sem": [
+                  "scribe",
+                  "write"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4536391465885867,
+               "11_Semantic_Field": "write"
+            },
+            "000007": {
+               "00_ID_Match": 802,
+               "03_Best_Match_Sem": [
+                  "scribe",
+                  "pen"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.45310730599859683,
+               "11_Semantic_Field": "pen"
+            },
+            "000008": {
+               "00_ID_Match": 1828,
+               "03_Best_Match_Sem": [
+                  "scribe",
+                  "fisherman"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4530172580692981,
+               "11_Semantic_Field": "fisherman"
+            },
+            "000009": {
+               "00_ID_Match": 2347,
+               "03_Best_Match_Sem": [
+                  "scribe",
+                  "lady"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.452278969258258,
+               "11_Semantic_Field": "lady"
+            },
+            "000010": {
+               "00_ID_Match": 885,
+               "03_Best_Match_Sem": [
+                  "scribe",
+                  "mason"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4522472465891314,
+               "11_Semantic_Field": "mason"
+            },
+            "000011": {
+               "00_ID_Match": 3074,
+               "03_Best_Match_Sem": [
+                  "scribe",
+                  "official"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.45183708177060544,
+               "11_Semantic_Field": "official"
+            },
+            "000012": {
+               "00_ID_Match": 3302,
+               "03_Best_Match_Sem": [
+                  "scribe",
+                  "warrior"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4505036892385702,
+               "11_Semantic_Field": "warrior"
+            },
+            "000013": {
+               "00_ID_Match": 969,
+               "03_Best_Match_Sem": [
+                  "scribe",
+                  "book"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4502439959876013,
+               "11_Semantic_Field": "book"
+            },
+            "000014": {
+               "00_ID_Match": 1313,
+               "03_Best_Match_Sem": [
+                  "scribe",
+                  "friend"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.45013686914506973,
+               "11_Semantic_Field": "friend"
+            }
+         }
+      }
+   },
+   "000005": {
+      "00_ID_token": 5,
+      "01_Meaning_token": "skillful, know",
+      "02_Form_token": [
+         "jdʕ"
+      ],
+      "03_Matches": {
+         "Level_01": {
+            "000000": {
+               "00_ID_Match": 12,
+               "03_Best_Match_Sem": [
+                  "know",
+                  "sense perception taste smell hear see touch"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.4658572777083617,
+               "11_Semantic_Field": "sense perception taste smell hear see touch"
+            }
+         },
+         "Level_02": {
+            "000000": {
+               "00_ID_Match": 1397,
+               "03_Best_Match_Sem": [
+                  "know",
+                  "know"
+               ],
+               "05_ID_Cluster": 0,
+               "06_Sim_Score_Sem_Match": 1.0,
+               "11_Semantic_Field": "know"
+            },
+            "000001": {
+               "00_ID_Match": 1396,
+               "03_Best_Match_Sem": [
+                  "know",
+                  "see"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.5289301888606724,
+               "11_Semantic_Field": "see"
+            },
+            "000002": {
+               "00_ID_Match": 1082,
+               "03_Best_Match_Sem": [
+                  "know",
+                  "feel"
+               ],
+               "05_ID_Cluster": 1,
+               "06_Sim_Score_Sem_Match": 0.5201359658895399,
+               "11_Semantic_Field": "feel"
+            },
+            "000003": {
+               "00_ID_Match": 3393,
+               "03_Best_Match_Sem": [
+                  "skillful",
+                  "brilliant"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4965586445760257,
+               "11_Semantic_Field": "brilliant"
+            },
+            "000004": {
+               "00_ID_Match": 1395,
+               "03_Best_Match_Sem": [
+                  "know",
+                  "hear"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4965056243771564,
+               "11_Semantic_Field": "hear"
+            },
+            "000005": {
+               "00_ID_Match": 1790,
+               "03_Best_Match_Sem": [
+                  "know",
+                  "look"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4854662079416816,
+               "11_Semantic_Field": "look"
+            },
+            "000006": {
+               "00_ID_Match": 2391,
+               "03_Best_Match_Sem": [
+                  "know",
+                  "feeling"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.47284681741578066,
+               "11_Semantic_Field": "feeling"
+            },
+            "000007": {
+               "00_ID_Match": 1584,
+               "03_Best_Match_Sem": [
+                  "know",
+                  "listen"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.47123551096557126,
+               "11_Semantic_Field": "listen"
+            },
+            "000008": {
+               "00_ID_Match": 2389,
+               "03_Best_Match_Sem": [
+                  "know",
+                  "seeing"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4675989092602233,
+               "11_Semantic_Field": "seeing"
+            },
+            "000009": {
+               "00_ID_Match": 2434,
+               "03_Best_Match_Sem": [
+                  "know",
+                  "sense"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.46577612595077267,
+               "11_Semantic_Field": "sense"
+            },
+            "000010": {
+               "00_ID_Match": 2216,
+               "03_Best_Match_Sem": [
+                  "know",
+                  "get wet"
+               ],
+               "05_ID_Cluster": 2,
+               "06_Sim_Score_Sem_Match": 0.4631292128064057,
+               "11_Semantic_Field": "get wet"
+            }
+         }
+      }
+   }
+}

@@ -1,6 +1,6 @@
 # ALeA : Automatic Lexical Aligner 
 
-Version: 0.0.1b
+Version: 0.0.3b
 
 Status: Beta
 
@@ -12,7 +12,7 @@ Release date: 08.01.2020
 
 #### How to cite
 
-Kilani Marwan, 2020, ALeA 0.0.1b : Automatic Lexical Aligner, https://github.com/MKilani/ALeA
+Kilani Marwan, 2020, ALeA 0.0.3b : Automatic Lexical Aligner, https://github.com/MKilani/ALeA
 
 ## Introduction
 
@@ -172,81 +172,132 @@ The algorithm takes the following arguments:
 
 The follwoing arguments are optional:
 
-* **scoreAlignPhon : string** - select type of score according to which the phonetic alignments are organized (string)  
+* **scoreAlignPhon : string** - Select type of score according to which the phonetic alignments are organized
 -- default: "09_Aver_Score_Sem-Phon_Corr"  
--- options: "07_Sim_Score_Phon_Corr_Match", "08_Sim_Score_Phon_Glob_Match", or "09_Aver_Score_Sem-Phon_Corr"  
--- "07_Sim_Score_Phon_Corr_Match" uses the function "(((SumFeat) / (NrFeat * 7.71)) - ((LenSeq - ShortestWord)/1.04 + ((LenAlign - LenSeq)/LenSeq)) * (1-(ShortestWord/LongestWord))) / (LenAlign * 4.77117)"  
--- "09_Aver_Score_Sem-Phon_Corr" is the average between the semantic score and the "07_Sim_Score_Phon_Corr_Match"  
+-- options: "07_Sim_Score_Phon_Corr_Match", "08_Sim_Score_Phon_Glob_Match", "09_Aver_Score_Sem-Phon_Corr", or "10_Aver_Score_Sem-Phon_Glob"
+-- "07_Sim_Score_Phon_Corr_Match" uses the function "(((SumFeat) / (NrFeat * 7.71)) / (LenAlign * 4.77117)"
+-- "09_Aver_Score_Sem-Phon_Corr" is the average between the semantic score and the "07_Sim_Score_Phon_Corr_Match"
+-- "10_Aver_Score_Sem-Phon_Glob" is the average between the semantic score and the "08_Sim_Score_Phon_Glob_Match"
 -- see FAAL documentation for details ( https://github.com/MKilani/FAAL )
 * **verbose : Boolean** - Print logs while executing -- Default: True
 * **semanticLevel : string** - Level of the semantic tags according to which the comparison is performed. The options, for now, are: "Level_01", "Level_02", "Level_03" (see ASeT algorithm for details)
 * **dividers : [ ]** - Dividers to be used to split meanings, if the previous option is set to True -- Default: [","]
-* **phoneticThreshold : float** - Threshold to select the best matches -- default = 0.65
+* **selectBest : string** - Parameter according to which the algorithm selects the best matches among those identified by the ALeA on the basis of the other parameters
+-- default: "07_Sim_Score_Phon_Corr_Match"
+-- options: "07_Sim_Score_Phon_Corr_Match", "08_Sim_Score_Phon_Glob_Match", "09_Aver_Score_Sem-Phon_Corr", or "10_Aver_Score_Sem-Phon_Glob"
+-- "07_Sim_Score_Phon_Corr_Match" uses the function "(((SumFeat) / (NrFeat * 7.71)) / (LenAlign * 4.77117)"
+-- "09_Aver_Score_Sem-Phon_Corr" is the average between the semantic score and the "07_Sim_Score_Phon_Corr_Match"
+-- "10_Aver_Score_Sem-Phon_Glob" is the average between the semantic score and the "08_Sim_Score_Phon_Glob_Match"
+-- see FAAL documentation for details ( https://github.com/MKilani/FAAL )
+* **selectBestThreshold: string** - Threshold for the parameter selectBest -- default: 0.65
+* **parseVow: Boolean** - This allows to decide if the phonetic comparison should take into consideration vowels or not. Ignoring vowels can be useful when dealing with unrelated or relatively distant languages, or with languages in which vowels are rather unstable and semantically secondary (e.g. Semitic languages) -- default: True
+
 
 
 ## Output
 
-The algorithm yields a double output, therefore two variable separated by a comma are needed to store the results:
+The algorithm yields three outputs, therefore three variable separated by commas are needed to store the results:
 
 ```python
-json_semanticSelectionDict, json_semanticSelectionDict_best = ALeA(json_semanticSelection_One, json_semanticSelection_Two, pathModel, scoreAlignPhon = "09_Aver_Score_Sem-Phon_Corr", verbose = False, semanticLevel = "Level_02", dividers = [","], phoneticThreshold = 0.65)
+json_semanticSelectionDict, json_semanticSelectionDict_best, semanticSelectionDict_best_simplified = ALeA(json_semanticSelection_One, json_semanticSelection_Two, pathModel, scoreAlignPhon = "09_Aver_Score_Sem-Phon_Corr", verbose = False, semanticLevel = "Level_02", dividers = [","], selectBest = "07_Sim_Score_Phon_Corr_Match", selectBestThreshold = 0.65, parseVow = True)
 ```
 
 The first output is a nested dictionary (in json format) with all the matches that fits the given parameters. The second output, instead, is selection of the matches that have a score of phonemic similarity that is higher than the **phoneticThreshold** argument.
 
-The format of both outputs is the following:
+The format of the first two outputs is the following:
 
 ```python
 {
-   "0": {                                           # ID entry - index for the following data
-      "0_ID_token": int,                            # ID item lexical list A
-      "1_Meaning_token": string,                    # Meaning(s) item lexical list A
-      "2_Form_token": [                             # Form(s) item lexical list A - spelled in IPA
-         string,
-         string
-      ],
-      "3_Matches": {                                # Organized matches from lexical list B - index for the matches
-         "0": {                                     # ID match
-            "0_ID_Match": int,                      # ID item from lexical list B
-            "1_Meaning_Match": string,              # Meaning(s) item lexical list B
-            "2_Form_Match": [                       # Form(s) item lexical list B - spelled in IPA
-               string,
-               string
-            ],
-            "3_Sim_Score_Sem_Match": float,         # Semantic similarity item list A - item list B
-            "4_Best_Match_Sem": [                   # Meanings of items list A and B with highest semantic similarity
-               string,
-               string
-            ],
-            "5_Best_Match_Phon": [                  # Forms of items list A and B with highest phonetic similarity
-               int,
-               string,
-               int,
-               string
-            ],
-            "6_Sim_Score_Phon_Corr_Match": float,   # Phonetic alignemnt - Corrected similarity score (see FAAL documentation)
-            "7_Sim_Score_Phon_Glob_Match": float,   # Phonetic alignemnt - Global similarity score (see FAAL documentation)
-            "8_Aver_Score_Sem-Phon_Corr": float,    # Phonetic-Semantic alignemnt - Average Corrected similarity score - Semantic score
-            "9_ResultsComp": {
-               "bestAlignCorrected": float,         # Phonetic alignemnt - Corrected similarity score (see FAAL documentation)
-               "bestAlignGlobal": float,            # Phonetic alignemnt - Global similarity score (see FAAL documentation)
-               "wordWithDiacritics_1": string,      # Alignment with diacritic - word A (see FAAL documentation)
-               "wordWithDiacritics_2": string,      # Alignment with diacritic - word B (see FAAL documentation)
-               "wordWithoutDiacritics_1": string,   # Alignment without diacritic - word A (see FAAL documentation)
-               "wordWithoutDiacritics_2": string    # Alignment without diacritic - word B (see FAAL documentation)
+   "0": {                                                 # ID entry - index for the following data
+      "0": {                                              # Semantic Cluster of the match
+         "00_ID_token": int,                              # ID item lexical list A
+         "01_Meaning_token": string,                      # Meaning(s) item lexical list A
+         "02_Form_token": [                               # Form(s) item lexical list A - spelled in IPA
+            string,
+            string
+         ],
+         "03_Matches": {                                  # Organized matches from lexical list B - index for the matches
+            "Level_XX": {                                 # Level of the semantic tags used in the comparison - XX = 01, 02 etc                        
+               "0": {                                     # ID match
+                  "00_ID_Match": int,                     # ID item from lexical list B
+                  "01_Meaning_Match": string,             # Meaning(s) item lexical list B
+                  "02_Form_Match": [                      # Form(s) item lexical list B - spelled in IPA
+                     string,
+                     string
+                  ],
+                  "03_Best_Match_Sem": [                  # Meanings of items list A and B with highest semantic similarity
+                     string,
+                     string
+                  ],
+                  "04_Best_Match_Phon": [                 # Forms of items list A and B with highest phonetic similarity
+                     int,
+                     string,
+                     int,
+                     string
+                  ],
+                  "05_ID_Cluster": int,                   # Semantic Cluster of the match
+                  "06_Sim_Score_Sem_Match": float,        # Semantic similarity item list A - item list B
+                  "07_Sim_Score_Phon_Corr_Match": float,  # Phonetic alignemnt - Corrected similarity score (see FAAL documentation)
+                  "08_Sim_Score_Phon_Glob_Match": float,  # Phonetic alignemnt - Global similarity score (see FAAL documentation)
+                  "09_Aver_Score_Sem-Phon_Corr": float,   # Phonetic-Semantic alignemnt - Average Corrected similarity score - Semantic score
+                  "10_Aver_Score_Sem-Phon_Glob": float,   # Phonetic-Semantic alignemnt - Average Global similarity score - Semantic score
+                  "11_Semantic_Field": string,            # Matching semantic tag
+                  "12_ResultsComp": {
+                     "bestAlignCorrected": float,         # Phonetic alignemnt - Corrected similarity score (see FAAL documentation)
+                     "bestAlignGlobal": float,            # Phonetic alignemnt - Global similarity score (see FAAL documentation)
+                     "wordWithDiacritics_1": string,      # Alignment with diacritic - word A (see FAAL documentation)
+                     "wordWithDiacritics_2": string,      # Alignment with diacritic - word B (see FAAL documentation)
+                     "wordWithoutDiacritics_1": string,   # Alignment without diacritic - word A (see FAAL documentation)
+                     "wordWithoutDiacritics_2": string    # Alignment without diacritic - word B (see FAAL documentation)
+                  }
+               },
+               etc.
             }
-         },
-         etc.
+         }
       }
    },
    etc.
 }
 ```
 
+The third output is a list of dictionaries with a summary of the results with only the most relevant informations. Each entry represent a semantic tag, and it contains the following fields:
+
+```
+"01_Semantic_Cluster" : Semantic Cluster of the match.
+"02_Entry_ID" : ID of the word in list A.
+"03_Entry_Form" : Form of the word in list A.
+"04_Entry_Meaning" : Meaning of the word in list A.
+"05_Match_ID" : ID of the match from list B.
+"06_Match_Form" : Form of the match from list B.
+"07_Match_Meaning" : ID of the match from list B.
+"08_Selecting_Score_Best" : Score used to select the best matches.
+```
+
+
 ## Running the test
 
-The file ALeA_tester.py provides an example of the use of the ALeA algorithm to tag a selection of Ancient Egyptian words.  
+The file ALeA_tester.py provides an example of the use of the ALeA algorithm to align a selection of Ancient Egyptian words with a dictionary of Biblical Hebrew and Aramaic.  
 It can be downloaded from the GitHub repository [ALeA_tester.py](/tester/ALeA_tester.py)
+
+In addition to the script, the Egyptian and Hebrew-Aramaic lists are needed - the raw version of the Hebrew-Aramaic list are provided in [ALeA_tester.py](/tester/rawLists/).  
+These two wordlists need to be semantically tagged with the ASeT algorithm. This can be done using the script [ALeA_tester.py](/tester/ALeA_listTagger.py). See https://github.com/MKilani/ASeT for details.
+
+The lists are tagged using the [consepticon_1.0_multiLevel](/tester/consepticon_1.0_multiLevel.txt) list, and using the following arguments (again, see https://github.com/MKilani/ASeT for details):
+
+
+```
+semanticThreshold_lvl1=0.1
+semanticThreshold_lvl2=0.45
+thresholdClusters_lvl3 = None
+
+thresholdClusters_lvl1 = 2
+thresholdClusters_lvl2 = 3
+semanticThreshold_lvl3 = None
+```
+
+The tagged Egyptian and Hebrew-Aramaic lists provided in [ALeA_tester.py](/tester/taggedLists/).
+
+The tagged lists can be used to test ALeA with the ALeA_tester.py script.
 
 The file ALeA_tester.py can be run from command line with:
 
@@ -254,8 +305,54 @@ The file ALeA_tester.py can be run from command line with:
 python3 ALeA_tester.py
 ```
 
-The results should look like this [Results_ALeA](/tester/testerResults.txt) and this [Results_ALeA_best](/tester/testerResults.txt)
+Note that the location fo various files need to be modified within the ALeA_tester.py file before running the script. Just open it with any editor of text and follow the indications.
+
+The results should look like the files in [Results_ALeA](/results/).
+
+As it can be easily seen in the [simplified version of the results](/results/ALeA_results_cluster-2_bestSimplified_0.6.txt), the algorithm was able to identify etymologically correct matches for all words. These are summarized here below:
+
+```
+Cluster: 0 :: 0 - 'ʔln' - a tree :: 7671 - 'ʔi:la:n' - tree :: 0.9999999128155492
+Cluster: 0 :: 0 - 'ʔln' - a tree :: 7260 - 'ʔajil' - mighty, lintel, oak, post, ram, tree :: 0.9283170774183686
+---------
+Cluster: 1 :: 0 - 'ʔln' - a tree :: 7671 - 'ʔi:la:n' - tree :: 0.9999999128155492
+Cluster: 1 :: 0 - 'ʔln' - a tree :: 7278 - 'ʔal:o:wn' - oak :: 0.6211582688540426
+Cluster: 1 :: 0 - 'ʔln' - a tree :: 7260 - 'ʔajil' - mighty, lintel, oak, post, ram, tree :: 0.9283170774183686
+---------
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 7671 - 'ʔi:la:n' - tree :: 0.9999999128155492
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 7278 - 'ʔal:o:wn' - oak :: 0.6211582688540426
+Cluster: 2 :: 0 - 'ʔln' - a tree :: 7260 - 'ʔajil' - mighty, lintel, oak, post, ram, tree :: 0.9283170774183686
+---------
+Cluster: 0 :: 1 - 'ʔspt' - quiver :: 7442 - 'ʔaʃpa:h' - quiver :: 0.9499999215339943
+---------
+Cluster: 1 :: 1 - 'ʔspt' - quiver :: 7442 - 'ʔaʃpa:h' - quiver :: 0.9499999215339943
+---------
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 8284 - 'ʕɛzra:h' - help :: 0.6129441834649414
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 8245 - 'ʕezɛr' - help :: 0.7310671402142459
+Cluster: 1 :: 2 - 'ʕʣr' - assist, assisting person, aide :: 7976 - 'ʕa:zar' - help, succour :: 0.7310671402142459
+---------
+Cluster: 0 :: 3 - 'rʔʃ' - peak, top, summit :: 5512 - 'ro:ʔʃ' - band, beginning, captain, chapiter, chief, company, end, every, excellent, first, forefront, head, height, high, lead, poor, principal, ruler, sum, top :: 0.9999999128155492
+---------
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 5512 - 'ro:ʔʃ' - band, beginning, captain, chapiter, chief, company, end, every, excellent, first, forefront, head, height, high, lead, poor, principal, ruler, sum, top :: 0.9999999128155492
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 5365 - 'reʔʃi:t' - beginning, chief, first, principal thing :: 0.6099036484311872
+Cluster: 1 :: 3 - 'rʔʃ' - peak, top, summit :: 5488 - 'riʔʃa:h' - beginning :: 0.6085200203653357
+---------
+Cluster: 1 :: 4 - 'ʦpr' - scribe :: 5576 - 'sa:per' - scribe :: 0.972491826997218
+Cluster: 1 :: 4 - 'ʦpr' - scribe :: 5660 - 'səpar' - book, roll :: 0.6976138129079863
+---------
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 5576 - 'sa:per' - scribe :: 0.972491826997218
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 5660 - 'səpar' - book, roll :: 0.6976138129079863
+Cluster: 2 :: 4 - 'ʦpr' - scribe :: 5630 - 'sepɛr' - bill, book, evidence, learn, letter, register, scroll :: 0.6976138129079863
+---------
+Cluster: 0 :: 5 - 'jdʕ' - skillful, know :: 1935 - 'jədaʕ' - certify, know, make known, teach :: 0.9999999128155492
+Cluster: 0 :: 5 - 'jdʕ' - skillful, know :: 1706 - 'ja:daʕ' - acknowledge, acquaintance, advise, answer, appoint, assuredly, be aware, awares, can, certainly, comprehend, consider, could they, cunning, declare, be diligent, discern, discover, endued with, familiar friend, famous, feel, can have, be norant, instruct, kinsfolk, kinsman, know, knowledge, have, known, be learned, lie by man, mark, perceive, privy to, prognosticator, regard, have respect, skilful, shew, can skill, be sure, surety, teach, tell, understand, have, will be, wist, wit, wot :: 0.9999999128155492
+Cluster: 0 :: 5 - 'jdʕ' - skillful, know :: 476 - 'daʕat' - cunning, norantly, know, awares :: 0.8333332752103662
+---------
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 1935 - 'jədaʕ' - certify, know, make known, teach :: 0.9999999128155492
+Cluster: 1 :: 5 - 'jdʕ' - skillful, know :: 1706 - 'ja:daʕ' - acknowledge, acquaintance, advise, answer, appoint, assuredly, be aware, awares, can, certainly, comprehend, consider, could they, cunning, declare, be diligent, discern, discover, endued with, familiar friend, famous, feel, can have, be norant, instruct, kinsfolk, kinsman, know, knowledge, have, known, be learned, lie by man, mark, perceive, privy to, prognosticator, regard, have respect, skilful, shew, can skill, be sure, surety, teach, tell, understand, have, will be, wist, wit, wot :: 0.9999999128155492
+Cluster: 2 :: 5 - 'jdʕ' - skillful, know :: 476 - 'daʕat' - cunning, norantly, know, awares :: 0.8333332752103662
+---------
+```
 
 
-The results show that the algorithm was able to identify etymologically correct matches for all words. The results, however, include also various clearly spurious matches.  
-This is not a problem: as said above, ALeA should be used within a semi-automated approach, where the results of the automatic matching process are manually verified to select the best matches and to eliminate possible spurious matches.
+The results, however, include also various clearly spurious matches. This is not a problem: as said above, ALeA should be used within a semi-automated approach, where the results of the automatic matching process are manually verified to select the best matches and to eliminate possible spurious matches.
