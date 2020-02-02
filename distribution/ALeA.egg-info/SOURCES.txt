@@ -1,3 +1,4 @@
+MANIFEST.in
 README.md
 setup.py
 ALeA/__init__.py
@@ -8,7 +9,18 @@ ALeA.egg-info/dependency_links.txt
 ALeA.egg-info/requires.txt
 ALeA.egg-info/top_level.txt
 ALeA/dependencies/__init__.py
+ALeA/dependencies/FAAL_jar/FAAL_jar_Global_ALeA.jar
 ALeA/dependencies/FAAL_jar/__init__.py
 ALeA/dependencies/FAAL_jar/config/__init__.py
+ALeA/dependencies/FAAL_jar/config/external_corr_glob_sim_score_function.txt
+ALeA/dependencies/FAAL_jar/config/features_coarticulation.txt
+ALeA/dependencies/FAAL_jar/config/features_diphthongs.txt
+ALeA/dependencies/FAAL_jar/config/phon_categories.txt
+ALeA/dependencies/FAAL_jar/config/phon_diacritics.txt
+ALeA/dependencies/FAAL_jar/config/phon_features.txt
+ALeA/dependencies/FAAL_jar/config/saliences_to_use_matches_phon_categories.txt
 ALeA/dependencies/FAAL_jar/config/saliences/__init__.py
+ALeA/dependencies/FAAL_jar/config/saliences/salience_cat_1.txt
+ALeA/dependencies/FAAL_jar/config/saliences/salience_cat_2.txt
+ALeA/dependencies/FAAL_jar/config/saliences/salience_cat_3.txt
 ALeA/dependencies/interfaceFAAL/__init__.py

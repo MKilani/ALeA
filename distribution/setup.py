@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ALeA",
-    version="0.0.4b",
+    version="0.0.5b",
     author="Marwan Kilani",
     author_email="kilani.edu@gmail.com",
     description="Automatic Lexical Aligner",

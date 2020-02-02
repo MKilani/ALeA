@@ -1,6 +1,6 @@
 # ALeA : Automatic Lexical Aligner 
 
-Version: 0.0.4b
+Version: 0.0.5b
 
 Status: Beta
 
@@ -12,7 +12,7 @@ Release date: 08.01.2020
 
 #### How to cite
 
-Kilani Marwan, 2020, ALeA 0.0.4b : Automatic Lexical Aligner, https://github.com/MKilani/ALeA
+Kilani Marwan, 2020, ALeA 0.0.5b : Automatic Lexical Aligner, https://github.com/MKilani/ALeA
 
 ## Introduction
 
