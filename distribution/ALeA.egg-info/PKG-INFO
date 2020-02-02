@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: ALeA
-Version: 0.0.3b0
+Version: 0.0.4b0
 Summary: Automatic Lexical Aligner
 Home-page: https://github.com/MKilani/ALeA
 Author: Marwan Kilani
@@ -8,7 +8,7 @@ Author-email: kilani.edu@gmail.com
 License: UNKNOWN
 Description: # ALeA : Automatic Lexical Aligner 
         
-        Version: 0.0.3b
+        Version: 0.0.4b
         
         Status: Beta
         
@@ -20,7 +20,7 @@ Description: # ALeA : Automatic Lexical Aligner
         
         #### How to cite
         
-        Kilani Marwan, 2020, ALeA 0.0.3b : Automatic Lexical Aligner, https://github.com/MKilani/ALeA
+        Kilani Marwan, 2020, ALeA 0.0.4b : Automatic Lexical Aligner, https://github.com/MKilani/ALeA
         
         ## Introduction
         
